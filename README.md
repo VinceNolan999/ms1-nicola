@@ -10,7 +10,7 @@ The aim of the project is give my neice web pntial employers.resence and show-ca
 <!-- One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.   -->
-
+---
 ## <u>Table of Contents</u>
 
 - [UX](#ux)
@@ -35,6 +35,7 @@ Essentially, this part is your sales pitch.   -->
 - [Credits](#credits)
 - [Screenshots](#screenshots)
  
+ ---
 ## <u>UX</u>
 
  ### User Goals
@@ -88,6 +89,7 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 -->
+---
 ## <u>Features</u>
 
 <!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.>
@@ -104,6 +106,7 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 <!-- - Another feature idea -->  
 
+---
 ## <u>Technology Used</u>
 
 * [Google Fonts:](https://www.fonts.google.com)
@@ -131,7 +134,7 @@ In addition, you may also use this section to discuss plans for additional featu
    - Used to create the skeleton of the project and initial feel of how I planned it to look. 
 
 
-
+---
 ## <u>Testing</u>
 
 ### Functionality testing
@@ -159,6 +162,8 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 -->
+
+---
 ## <u>Deployment</u>
 
 <!--
@@ -171,6 +176,8 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 -->
+
+---
 ## <u>Credits</u>
 
 ### Content
@@ -191,4 +198,5 @@ Likley remove this to incorporate into content
 
  <!-- I received inspiration for this project from X  -->
 
+---
 ## <u>Screenshots</u>
