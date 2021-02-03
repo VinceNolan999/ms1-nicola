@@ -1,19 +1,45 @@
 # Nicola - A Singers Website
 
-This is my first Milestone project with Code Institute for my first ever web project.
+## A User-Centric Frontend Milestone Project
+
+This is my first Milestone project with Code Institute and my first ever web design.
 I decided to create a website for a famliy member who is a singer along the lines of a suggested project withing the course (Build a website for a band).
-The aim of the project is give my neice web presence and show-case her abilities to fans and potential employers.
+The aim of the project is give my neice web pntial employers.resence and show-case her abilities to fans and potential employers.
 
 
 <!-- One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.   -->
- 
-## UX
 
- ### User Stories
+## <u>Table of Contents</u>
+
+- [UX](#ux)
+    - [Website owner business goals](#website-owner-business-goals)
+    - [User goals](#user-goals)
+        - [New Fan Goals](#new-fan-goals)
+        - [Returning Fan goals](#returning-fan-goals)
+        - [Website owner  goals](#website-owner-goals)
+    - [User stories](#user-stories)
+    - [Structure of the website](#structure-of-the-website)
+    - [Wireframes](#wireframes)
+- [Features](#features)
+- [Technology Used](#technology-used)
+- [Testing](#testing)
+    - [Functionality testing](#functionality-testing)
+    - [Compatibility testing](#compatibility-testing)
+    - [Code Validation](#code-validation)
+    - [User stories testing](#user-stories-testing)
+    - [Issues found during site development](#issues-found-during-site-development)
+    - [Performance testing](#performance-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screenshots](#screenshots)
+ 
+## <u>UX</u>
+
+ ### User Goals
   
- #### As A Fan:
+ #### New Fan Goals
 
 I want to find out more about Nicola.
 
@@ -23,7 +49,9 @@ I want to see pictures of Nicola.
 
 I want to be updated on when and where nicola is next performing.
 
-#### As the Site owner
+#### Returning Fan Goals
+
+#### WebSite Owner Goals
 
 I want to have a Web presence.
 
@@ -33,9 +61,9 @@ I want to showcase my singing.
 
 I want to increase my visibility to prospective employers.
 
+#### User Stories
 
-
-### Design
+### Structure of the website
 
 I aim to create a Minimialistic stylish site which features a visual experice.  I plan to have 3 pages.  
 The first page will have a mix of pictures and storys which introduces nicola as a singer/artist and 
@@ -60,7 +88,7 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 -->
-## Features
+## <u>Features</u>
 
 <!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.>
  
@@ -76,7 +104,7 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 <!-- - Another feature idea -->  
 
-## Technologies Used  (expected)
+## <u>Technology Used</u>
 
 * [Google Fonts:](https://www.fonts.google.com)
 
@@ -104,7 +132,14 @@ In addition, you may also use this section to discuss plans for additional featu
 
 
 
-## Testing
+## <u>Testing</u>
+
+### Functionality testing
+### Compatibility testing
+### Code Validation
+### User stories testing
+### Issues found during site development
+### Performance testing
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -124,7 +159,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 -->
-## Deployment
+## <u>Deployment</u>
 
 <!--
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -136,7 +171,7 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 -->
-## Credits
+## <u>Credits</u>
 
 ### Content
 <!-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
@@ -146,10 +181,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 <!-- The photos used in this site were obtained from -->
 
- >
+ 
 
 ### Acknowledgements
 
-Code Institute README template untilized to meet expected criteria.
+Code Institute README and Mentor template untilized to meet expected criteria.
+
+Likley remove this to incorporate into content
 
  <!-- I received inspiration for this project from X  -->
+
+## <u>Screenshots</u>
