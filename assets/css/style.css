@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
 
+/*------------------CONTENTS-----------------------*/
+/*
+Header
+
+Article
+     
+Footer
 
 
+
+/*---------------------------------------Header*/
 
 header h1 {
     font-family: 'Kodchasan', sans-serif;
@@ -42,6 +51,8 @@ header h1 {
             transition: none;
 }
 
+/*---------------------------------------Article*/   
+
 .about-me  {
         color: #fafafa;
         height: 100%;
@@ -69,6 +80,7 @@ header h1 {
     background-color: orangered;
     }
 
+/*---------------------------------------Footer*/
 
 footer {
     height: 100px;
