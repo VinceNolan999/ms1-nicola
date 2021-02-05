@@ -24,12 +24,12 @@ header h1 {
     margin-top:25px;
     margin-bottom: 25px;
     padding: 20px;
-        opacity: 0.2;
-        -webkit-transition: 3s 10s;
-       -moz-transition: 3s 10s;
-        -ms-transition: 3s 10s;
-         -o-transition: 3s 10s;
-            transition: 3s 10s;
+    opacity: 0.2;
+    -webkit-transition: 3s 10s;
+    -moz-transition: 3s 10s;
+    -ms-transition: 3s 10s;
+    -o-transition: 3s 10s;
+    transition: 3s 10s;
 
 }
 
@@ -68,3 +68,15 @@ header h1 {
 .events {
     background-color: orangered;
     }
+
+
+footer {
+    height: 100px;
+    color: white;
+    background-color: blueviolet;
+    
+}
+
+footer .footer-links {
+    color:blue;
+}
