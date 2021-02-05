@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
 
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
 
 header h1 {
@@ -12,10 +8,63 @@ header h1 {
 }
 
 .hero-background {
-    background: #111111 url("../media/whiskey.jpg") no-repeat fixed center ;
+    background: #111111 url("../media/whiskey.jpg") no-repeat fixed right center ;
     background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  z-index: -10;
   
 }
+
+.box {
+    height: 200px;
+    width:  95%;
+    margin:auto;
+    margin-top:25px;
+    margin-bottom: 25px;
+    padding: 20px;
+        opacity: 0.2;
+        -webkit-transition: 3s 10s;
+       -moz-transition: 3s 10s;
+        -ms-transition: 3s 10s;
+         -o-transition: 3s 10s;
+            transition: 3s 10s;
+
+}
+
+.box:active {
+    opacity: .5;
+    -webkit-transition: none;
+       -moz-transition: none;
+        -ms-transition: none;
+         -o-transition: none;
+            transition: none;
+}
+
+.about-me  {
+        color: #fafafa;
+        height: 100%;
+        background-color: black;
+}
+
+.about-me  h1, p {
+    color: rgba(250, 250, 250);
+    
+
+
+}
+
+.carosel {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(228, 225, 43);
+    }
+
+.news {
+    background-color: white;
+    }
+
+.events {
+    background-color: orangered;
+    }
