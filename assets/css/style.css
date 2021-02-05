@@ -82,11 +82,10 @@ header h1 {
 
 /*---------------------------------------Footer*/
 
-footer {
-    height: 100px;
-    color: white;
-    background-color: blueviolet;
+
     
+.footer-box {
+    background-color: blueviolet;
 }
 
 footer .footer-links {
