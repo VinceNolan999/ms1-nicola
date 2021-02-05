@@ -26,59 +26,48 @@ header h1 {
   
 }
 
+ 
+/*---------------------------------------Article*/   
 .box {
     height: 200px;
-    width:  95%;
+    width: 95%;
     margin:auto;
-    margin-top:25px;
+    margin-top: 25px;
     margin-bottom: 25px;
     padding: 20px;
-    opacity: 0.2;
-    -webkit-transition: 3s 10s;
-    -moz-transition: 3s 10s;
-    -ms-transition: 3s 10s;
-    -o-transition: 3s 10s;
-    transition: 3s 10s;
+    }
 
+.box:hover {
+     opacity: 0.7;
+       
 }
-
-.box:active {
-    opacity: .5;
-    -webkit-transition: none;
-       -moz-transition: none;
-        -ms-transition: none;
-         -o-transition: none;
-            transition: none;
-}
-
-/*---------------------------------------Article*/   
 
 .about-me  {
         color: #fafafa;
         height: 100%;
-        background-color: black;
+        background-color: rgba(0, 0, 0);
+        opacity: 0.2;
 }
-
-.about-me  h1, p {
-    color: rgba(250, 250, 250);
-    
-
-
-}
-
+  
 .carosel {
     border: 2px solid white;
     border-radius: 20px;
-    background-color: rgba(228, 225, 43);
+    background-color: rgba(81, 136, 190);
+    opacity: 0.2;
     }
 
 .news {
-    background-color: white;
+    background-color: rgba(182, 180, 49);
+    opacity: 0.2;
     }
 
 .events {
-    background-color: orangered;
+    background-color: rgba(248, 74, 11);
+    opacity: 0.2;
     }
+
+
+
 
 /*---------------------------------------Footer*/
 
