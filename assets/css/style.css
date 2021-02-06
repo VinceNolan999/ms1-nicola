@@ -17,17 +17,20 @@ header h1 {
 }
 
 .hero-background {
-    background: #111111 url("../media/whiskey.jpg") no-repeat fixed right center ;
+    background: #111111 url("../media/woman.jpg") no-repeat fixed center right ;
     background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  z-index: -10;
+    z-index: -10;
   
+  }
+
+  
+/*---------------------------------------Article*/   
+
+article {
+    margin-bottom:0;
 }
 
- 
-/*---------------------------------------Article*/   
+
 .box {
     height: 200px;
     width: 95%;
@@ -53,7 +56,8 @@ header h1 {
         background-color: rgba(0, 0, 0);
         opacity: 0.2;
 }
-  
+
+
 .carosel {
     border: 2px solid white;
     border-radius: 20px;
@@ -82,7 +86,7 @@ header h1 {
     
 .footer-box {
     background-color: blueviolet;
-    height:10%;
+    height: 75px;
 }
 
 footer .footer-links {
