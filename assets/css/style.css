@@ -17,7 +17,7 @@ header h1 {
 }
 
 .hero-background {
-    background: #111111 url("../media/woman.jpg") no-repeat fixed center right ;
+    background: #111111 url("../media/nicola2.png") no-repeat fixed center top ;
     background-size: cover;
     z-index: -10;
   
@@ -45,16 +45,17 @@ article {
 }
 
 .passive:active {
-    opacity: 0.7;
+    opacity: 0.9;
     transition:none;
 
 }
 
 .about-me  {
-        color: #fafafa;
+        color: #2e2e2e;
+        padding-top: 70%;
         height: 100%;
-        background-color: rgba(0, 0, 0);
-        opacity: 0.2;
+        background-color: none;
+        opacity: 0.8;
 }
 
 
@@ -62,17 +63,18 @@ article {
     border: 2px solid white;
     border-radius: 20px;
     background-color: rgba(81, 136, 190);
-    opacity: 0.2;
+    
     }
 
 .news {
     background-color: rgba(182, 180, 49);
-    opacity: 0.2;
+    height: 100%;
+    opacity: 0.5;
     }
 
 .events {
     background-color: rgba(248, 74, 11);
-    opacity: 0.2;
+    opacity: 0.5;
     }
 
 
@@ -85,10 +87,12 @@ article {
 
     
 .footer-box {
-    background-color: blueviolet;
+    background-color: rgb(251, 176, 253);
     height: 75px;
 }
 
 footer .footer-links {
     color:blue;
+    font-size: 25px;
+    line-height: 1px;
 }
