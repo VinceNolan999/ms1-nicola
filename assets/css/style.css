@@ -35,13 +35,24 @@ body {
      font-size: 50%;
      text-align: center;
      border:none;
-    /* position: absolute;      ---use for media qeury--- */
+     padding: 3px 10px 3px;
+     position: absolute;  
+     left: 45%;
+     top: 1rem;
+     
+     
+    /*     ---use for media qeury--- */
      
  }
   #main-nav .play-me .fa-play-circle {
       font-size: 250%;
   }
  
+  #main-nav .play-me span{
+      display: block;
+      font-size: 0.6rem;
+      
+  }
 
 /*---------------------------------------Article*/   
 article{ 
