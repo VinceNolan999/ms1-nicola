@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <script>var sound = new Audio();
+    sound.src="laugh.mp3";
+    </script>
     <title>Nicola</title>
 
 </head>
@@ -22,7 +25,7 @@
     <header >
         <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="index.html">Nicola</a>
-            <p>put audio link</p>
+            <button  type="button" onclick="sound.play()"  class="btn btn-outline-secondary play-me"><i class="far fa-play-circle"></i></button>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
