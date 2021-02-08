@@ -109,13 +109,13 @@ changing hamburger color
 #call-to-action a {
     color: rgb(58, 58, 58);
     border-color: rgb(58, 58, 58);
-    background-color: #fafafa;
-    border-radius: 10%;
-    text-decoration:none; 
- }
+    background-color: #fafafa;  
+    }
+
 #call-to-action a:hover{
     opacity: 0.7;
 }
+
 
 
 .social-network{
@@ -133,7 +133,7 @@ changing hamburger color
 .social-network i {
     margin: 5%;
     font-size: 200%;
-    border-radius: 10%;
+    border-radius: 0%;
     position: relative;
     left: -15px;
 
