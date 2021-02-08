@@ -107,6 +107,7 @@ changing hamburger color
     }
 
 #call-to-action a {
+    font-size: 80%;
     color: rgb(58, 58, 58);
     border-color: rgb(58, 58, 58);
     background-color: #fafafa;  
@@ -115,8 +116,6 @@ changing hamburger color
 #call-to-action a:hover{
     opacity: 0.7;
 }
-
-
 
 .social-network{
     padding-top: 3%;
@@ -131,17 +130,25 @@ changing hamburger color
 }
 
 .social-network i {
-    margin: 5%;
+    margin: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
     font-size: 200%;
     border-radius: 0%;
     position: relative;
-    left: -15px;
-
-    
+    left: -15px;   
 }
 
 .social-network i:hover {
     opacity: 0.7;
 }
 
+#footer-bottom  p {
+    font-size: 70%;
+    text-align: center;
+    color: #fafafa;
+    background-color: rgb(58, 58, 58);
+    margin: 0;
+    padding-bottom: 5%;
+}
 
