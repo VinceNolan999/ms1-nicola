@@ -37,7 +37,7 @@ changing hamburger color
         } 
 
 .custom-toggler.navbar-toggler:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 
@@ -54,7 +54,7 @@ changing hamburger color
      font-size: 50%;
      text-align: center;
      border:none;
-     padding: 3px 10px 3px;
+     padding: 5px 10px 2px;
      position: absolute;  
      left: 45%;
      top: 1rem;
@@ -89,22 +89,32 @@ changing hamburger color
 
 #about-me {
     font-size: 100%;
-    background-color: #4e4e4e;
-    color: #fafafa;
+    background-color: #aa9fa4;
+    color: #3e3539;
     border: 1px solid rgb(58, 58, 58);
-    padding: 5%
+    padding: 5%;
 
 }
 
 .about-me-inner {
     border: 1px solid rgb(58, 58, 58);
-    border-radius: 5%;
-    padding: 5%
-
+    padding: 5%;
 }
 
-
-
+#main-carousel {
+    border: 2px solid #777777 ;
+    align-items: center;
+    max-width: 400px;
+    
+   
+}
+#carousel-outer-box {
+    background-color: #a88a99;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
 
 /*---------------------------------------Footer*/
 
