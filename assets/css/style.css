@@ -169,6 +169,10 @@ changing hamburger color
 #gallery-wrap{
     
     background-color: #aa9fa4 ;
+}
+
+.gallery-main-row {
+       margin-top: -25px;
        
 }
 
@@ -187,3 +191,4 @@ changing hamburger color
  /* -moz-transform: scale(1.2); /* mozilla */ 
   
 }
+
