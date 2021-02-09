@@ -85,7 +85,9 @@ changing hamburger color
     width: 100%;
     background: url("../media/nicolanew.jpg") no-repeat center ;
     background-size: cover;
+    background-position: top;
 }
+
 
 #about-me {
     font-size: 100%;
@@ -171,3 +173,4 @@ changing hamburger color
     padding-bottom: 5%;
 }
 
+/*  --------------------Gallery------------------ */
