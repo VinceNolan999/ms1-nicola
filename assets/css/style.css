@@ -175,16 +175,24 @@ changing hamburger color
 
 /*  --------------------Gallery------------------ */
 
+#gallery-wrap{
+    
+    background-color: #aa9fa4 ;
+       
+}
+
 .img-fluid {     
     transition: transform .2s;
-    padding: 10px;
+    padding: 10px #fafafa;
     margin: 0 auto;
+    box-shadow: 0px 2px 4px 0px rgb(58, 58, 58);
+    
 }
 
 .img-fluid:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
-}
-
+   transform: scale(1.1); 
+ /* -ms-transform: scale(1.2); /* IE 9 */
+ /* -webkit-transform: scale(1.2); /* Safari 3-8 */
+ /* -moz-transform: scale(1.2); /* mozilla */ 
+  
 }
