@@ -195,16 +195,21 @@ changing hamburger color
 /*  --------------------Contact page--------------- */
 
 
+#contact-wrapper {
+    background: #a88a99;
+}
 
 .contact{
 		padding: 4%;
-		height: 400px;
+		height: 300px;
 	}
 	.col-md-3{
-		background: #ff9b00;
+        background: rgb(58, 58, 58);
+        color: #fafafa;
 		padding: 4%;
 		border-top-left-radius: 0.5rem;
-		border-bottom-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        
 	}
 	.contact-info{
 		margin-top:10%;
@@ -216,20 +221,26 @@ changing hamburger color
 		margin-bottom: 10%;
 	}
 	.col-md-9{
-		background: #fff;
+		background: #a88a99;
 		padding: 3%;
 		border-top-right-radius: 0.5rem;
-		border-bottom-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        
 	}
 	.contact-form label{
 		font-weight:600;
 	}
 	.contact-form button{
-		background: #25274d;
+		background: rgb(58, 58, 58);
 		color: #fff;
 		font-weight: 600;
-		width: 25%;
+        width: 25%;
+        transition: transform 1s;
 	}
-	.contact-form button:focus{
-		box-shadow:none;
-	}
+	.contact-form button:hover{
+    	transform: scale(1.1); 
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        -moz-transform: scale(1.1); /* mozilla */
+  
+}
