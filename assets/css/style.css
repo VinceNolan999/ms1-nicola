@@ -166,14 +166,12 @@ changing hamburger color
 
 /*  --------------------Gallery page--------------- */
 
-#gallery-wrap{
-    
+#gallery-wrap{ 
     background-color: #aa9fa4 ;
 }
 
 .gallery-main-row {
-       margin-top: -25px;
-       
+       margin-top: -25px;       
 }
 
 .img-fluid {     
@@ -181,14 +179,16 @@ changing hamburger color
     padding: 10px #fafafa;
     margin: 0 auto;
     box-shadow: 0px 2px 4px 0px rgb(58, 58, 58);
-    
+    width: 400px;
+    height: 300px;
+       
 }
 
 .img-fluid:hover {
    transform: scale(1.1); 
- /* -ms-transform: scale(1.2); /* IE 9 */
- /* -webkit-transform: scale(1.2); /* Safari 3-8 */
- /* -moz-transform: scale(1.2); /* mozilla */ 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -moz-transform: scale(1.1); /* mozilla */
   
 }
 
