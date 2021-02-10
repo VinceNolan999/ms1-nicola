@@ -27,7 +27,7 @@ changing hamburger color
 
 .custom-toggler.navbar-toggler { 
     border-color: #fafafa;
-    /* below was causing dotted line */
+    /* below used to stop dotted line around button */
     outline: 0; 
     }
     /* change hamburger color in below code (rgba) */
