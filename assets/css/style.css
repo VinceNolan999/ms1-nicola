@@ -41,7 +41,7 @@ changing hamburger color
 }
 
 
-/*---------------------------------------Nav Bar*/
+/*----------------------Nav Bar--------------*/
  #main-nav .navbar-brand {
      font-size: 200%;
      margin-left: -10px;
@@ -77,16 +77,15 @@ changing hamburger color
     background: url("../media/nicolanew.jpg") no-repeat center ;
     background-size: cover;
     background-position: top;
- }
+}
 
 
 #about-me {
     font-size: 100%;
     background: #929292;
-        color: #3e3539;
+    color: #3e3539;
     border: 1px solid rgb(58, 58, 58);
     padding: 5%;
-
 }
 
 
@@ -102,12 +101,10 @@ changing hamburger color
 }
 
 #carousel-outer-box {
-     background: rgb(71, 71, 71);
-
+    background: rgb(71, 71, 71);
     padding: 10px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 /*---------------------------------------Footer*/
@@ -115,8 +112,7 @@ changing hamburger color
 #call-to-action {
     text-align: center; 
     padding-top: 5%;
-    
-    }
+}
 
 #call-to-action a {
     font-size: 80%;
@@ -124,7 +120,7 @@ changing hamburger color
     color: rgb(58, 58, 58);
     border-color: rgb(58, 58, 58);
     background-color: #fafafa;  
-    }
+}
 
 #call-to-action a:hover{
     opacity: 0.7;
@@ -138,8 +134,7 @@ changing hamburger color
     }
 
 .social-network li{
-    display: inline;
-    
+    display: inline;  
 }
 
 .social-network i {
@@ -172,7 +167,6 @@ changing hamburger color
 background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
 }
 
-
 .gallery-main-row {
        margin-top: -25px;       
 }
@@ -183,16 +177,14 @@ background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1)
     margin: 0 auto;
     box-shadow: 0px 2px 4px 0px rgb(58, 58, 58);
     width: 400px;
-    height: 300px;
-       
+    height: 300px;       
 }
 
 .img-fluid:hover {
    transform: scale(1.1); 
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
-  -moz-transform: scale(1.1); /* mozilla */
-  
+  -moz-transform: scale(1.1); /* mozilla */ 
 }
 
 /*  --------------------Contact page--------------- */
@@ -248,3 +240,25 @@ background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1)
         -moz-transform: scale(1.1); /* mozilla */
   
 }
+
+/* --------------Media Query Section-------------------
+ Will only require one size change as site reaponsive for mobil/tablets*/
+
+
+@media only screen and (min-width: 992px) {
+
+    #main-nav .navbar-brand {
+        font-size: 300%;
+    }
+
+    #main-nav .play-me {
+        font-size: 150%;
+        top: 1.2rem;
+    }
+
+    .nav-link {
+        font-size:125%
+    }
+    
+    
+    }
