@@ -59,7 +59,7 @@ changing hamburger color
   -moz-transform: scale(1.3); /* mozilla */    
 }
 
-.img-fluid:hover, #main-carousel:hover,.about-me-inner:hover {    /* Gallery Tiles*/
+.img-fluid:hover, #main-carousel:hover {    /* Gallery Tiles*/
    transform: scale(1.1); 
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -106,6 +106,9 @@ changing hamburger color
       font-size: 0.6rem;      
   }
 
+  .navbar-nav {
+      opacity: 1.0;
+  }
 /*---------------------------Article main page------------------*/   
 
 .hero-image {
@@ -129,7 +132,7 @@ changing hamburger color
 .about-me-inner {
     border: 1px solid rgb(58, 58, 58);
     padding: 5%;
-    transition: transform 1s;
+    
 }
 
 #main-carousel {
@@ -148,7 +151,7 @@ changing hamburger color
 }
 
 
-/*------------------------------Footer------------------
+/*--------------------------Footer------------------
 bug within the icons.  outline-none needed somewhere
 
 */
