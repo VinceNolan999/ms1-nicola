@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
 
-/*------------------CONTENTS-----------------------*/
-
-
+/*------------------CONTENTS-----------------------
+   Header
+   Colors
+   Effects
+   Navbar
+   Main article page
+   Footer
+   Gallery
+   Contact
+   Media Query
+*/
 
 
 /*---------------------------------------Header*/
@@ -11,7 +19,8 @@ body {
     font-family: 'Kodchasan', sans-serif;
 
 }
-/*------------Nav and footer colors can be changed here-----------------------
+/*----COLORS--------Nav and footer can be changed here-----------------------
+
 https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/  
 changing hamburger color
 
@@ -41,7 +50,33 @@ changing hamburger color
 }
 
 
-/*----------------------Nav Bar--------------*/
+/* -------------------------EFFECTS ----------------------------- */
+
+.social-network i:hover, #call-to-action a:hover {   /* Footer icons*/
+    transform: scale(1.3); 
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  -moz-transform: scale(1.3); /* mozilla */    
+}
+
+.img-fluid:hover {    /* Gallery Tiles*/
+   transform: scale(1.1); 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -moz-transform: scale(1.1); /* mozilla */ 
+}
+
+.contact-form button:hover{   /* contact form submit button */
+    transform: scale(1.1); 
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    -moz-transform: scale(1.1); /* mozilla */
+  
+}
+
+
+
+/*---------------------------Nav Bar-------------------------*/
  #main-nav .navbar-brand {
      font-size: 200%;
      margin-left: -10px;
@@ -69,7 +104,7 @@ changing hamburger color
       font-size: 0.6rem;      
   }
 
-/*-----------------------------------Article main page*/   
+/*---------------------------Article main page------------------*/   
 
 .hero-image {
     height: 100vh;
@@ -107,7 +142,7 @@ changing hamburger color
     justify-content: center;   
 }
 
-/*---------------------------------------Footer*/
+/*------------------------------Footer------------------*/
 
 #call-to-action {
     text-align: center; 
@@ -119,11 +154,8 @@ changing hamburger color
     font-weight: 600;
     color: rgb(58, 58, 58);
     border-color: rgb(58, 58, 58);
-    background-color: #fafafa;  
-}
-
-#call-to-action a:hover{
-    opacity: 0.7;
+    background-color: #fafafa;
+    transition: transform .2s  
 }
 
 .social-network {
@@ -144,23 +176,19 @@ changing hamburger color
     font-size: 200%;
     border-radius: 0%;
     position: relative;
-    left: -15px;   
-}
-
-.social-network i:hover {
-    opacity: 0.7;
+    left: -15px; 
+    transition: transform .2s;  
 }
 
 #footer-bottom  p {
     font-size: 70%;
     text-align: center;
     color: #fafafa;
-    
     margin: 0;
     padding-bottom: 5%;
 }
 
-/*  --------------------Gallery page--------------- */
+/*  -----------------------------Gallery page------------------------- */
 
 #gallery-wrap{ 
     background: rgb(168,138,153);
@@ -172,22 +200,15 @@ background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1)
 }
 
 .img-fluid {     
-    transition: transform .2s;
     padding: 10px #fafafa;
     margin: 0 auto;
     box-shadow: 0px 2px 4px 0px rgb(58, 58, 58);
     width: 400px;
-    height: 300px;       
+    height: 300px;   
+    transition: transform .2s;    
 }
 
-.img-fluid:hover {
-   transform: scale(1.1); 
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  -moz-transform: scale(1.1); /* mozilla */ 
-}
-
-/*  --------------------Contact page--------------- */
+/*  ----------------------------Contact page----------------------- */
 
 
 #contact-wrapper {
@@ -232,33 +253,39 @@ background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1)
 		font-weight: 600;
         width: 25%;
         transition: transform 0.2s;
-	}
-	.contact-form button:hover{
-    	transform: scale(1.1); 
-        -ms-transform: scale(1.1); /* IE 9 */
-        -webkit-transform: scale(1.1); /* Safari 3-8 */
-        -moz-transform: scale(1.1); /* mozilla */
-  
 }
 
-/* --------------Media Query Section-------------------
+
+/* -------------------------Media Query Section--------------------------------
+
  Will only require one size change as site reaponsive for mobil/tablets*/
 
 
 @media only screen and (min-width: 992px) {
 
-    #main-nav .navbar-brand {
-        font-size: 300%;
-    }
+/*    nav bar contents resizing to suit desktop  */
+#main-nav .navbar-brand {
+    font-size: 300%;
+}
 
-    #main-nav .play-me {
-        font-size: 150%;
-        top: 1.2rem;
-    }
+#main-nav .play-me {
+    font-size: 150%;
+    top: 1.2rem;
+}
 
-    .nav-link {
-        font-size:125%
-    }
+.nav-link {
+    font-size:125%;
+}
     
-    
+/*--------footer contents resizing to suit desktop---------*/
+
+   #call-to-action {
+
+    font-size: 150%;
+   }
+   .social-network i {
+       font-size: 300%;
+   }
+
+
     }
