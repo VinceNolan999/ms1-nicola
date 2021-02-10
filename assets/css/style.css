@@ -82,8 +82,8 @@ changing hamburger color
 
 #about-me {
     font-size: 100%;
-    background-color: #aa9fa4;
-    color: #3e3539;
+    background: #929292;
+        color: #3e3539;
     border: 1px solid rgb(58, 58, 58);
     padding: 5%;
 
@@ -96,13 +96,14 @@ changing hamburger color
 }
 
 #main-carousel {
-    border: 2px solid #777777 ;
+    border: 2px solid #818181 ;
     align-items: center;
     width: 400px; 
 }
 
 #carousel-outer-box {
-    background-color: #a88a99;
+     background: rgb(71, 71, 71);
+
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -167,8 +168,10 @@ changing hamburger color
 /*  --------------------Gallery page--------------- */
 
 #gallery-wrap{ 
-    background-color: #aa9fa4 ;
+    background: rgb(168,138,153);
+background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
 }
+
 
 .gallery-main-row {
        margin-top: -25px;       
@@ -196,7 +199,8 @@ changing hamburger color
 
 
 #contact-wrapper {
-    background: #a88a99;
+ background: rgb(168,138,153);
+background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
 }
 
 .contact{
