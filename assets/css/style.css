@@ -11,7 +11,7 @@ body {
     font-family: 'Kodchasan', sans-serif;
 
 }
-/*------------Nav and footer colors-----------------------
+/*------------Nav and footer colors can be changed here-----------------------
 https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/  
 changing hamburger color
 
@@ -21,8 +21,8 @@ changing hamburger color
     color: #fafafa;
 }
 
-#main-nav, .social-network-bg, #call-to-action {
-    background-color: rgb(58, 58, 58);
+#main-nav, .social-network-bg, #call-to-action, #footer-bottom  p{
+    background-color: rgb(34, 34, 34);
 }
 
 .custom-toggler.navbar-toggler { 
@@ -160,7 +160,7 @@ changing hamburger color
     font-size: 70%;
     text-align: center;
     color: #fafafa;
-    background-color: rgb(58, 58, 58);
+    
     margin: 0;
     padding-bottom: 5%;
 }
@@ -239,7 +239,7 @@ background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1)
 		color: #fff;
 		font-weight: 600;
         width: 25%;
-        transition: transform 1s;
+        transition: transform 0.2s;
 	}
 	.contact-form button:hover{
     	transform: scale(1.1); 
