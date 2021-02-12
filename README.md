@@ -201,6 +201,8 @@ to a pause button.
 ### Functionality testing
 ### Compatibility testing
 ### Code Validation
+-  https://jigsaw.w3.org/css-validator/
+-  https://validator.w3.org/
 ### User stories testing
 ### Issues found during development
 ### Performance testing
