@@ -44,72 +44,130 @@ Essentially, this part is your sales pitch.   -->
 
 I want to find out more about Nicola.
 
-I want to hear Nicola's Music.
-
 I want to see pictures of Nicola.
+
+I want to be albe to contact Nicola.
 
 I want to be updated on when and where nicola is next performing.
 
 #### Returning Fan Goals
 
+I want to keep upto date on where Nicola is performing.
+
 #### WebSite Owner Goals
 
-I want to have a Web presence.
+I want to have a Web presence so prospecitve employers can find out more about me.
 
-I want to update and inform my fans.
+I want to update and inform my fans of my singing and songwriting and any new videos or music I am producing.
 
-I want to showcase my singing.
+I need a place for potential employers to contact me for booking me.
 
-I want to increase my visibility to prospective employers.
+
+
+
 
 #### User Stories
 
 ### Structure of the website
 
-I aim to create a Minimialistic stylish site which features a visual experice.  I plan to have 3 pages.  
-The first page will have a mix of pictures and storys which introduces nicola as a singer/artist and 
-sections about Nicola. The second page will be a gallery of  Pictures, music and videos of past performances.
-The final page will be a sign up page for fans / contact page for prospective employers and availabilty to 
-host singing events (weddings/parties/clubs etc.) 
+I want the website to be easily accessible, simple to navigate and user freindly. It must also be displayed 
+  for various devices (desktop ,Tablet, Mobile Phone) whilst maintaining a great user experience . Links within the website directing me to other Pages either within
+  this website or to other social media accounts (youtube etc). I waould like to have effects like hover to bring the website alive and encourages interaction.
 
 
 ### Wireframes
 
-To Bring the project to life, I used Balsamic to create wireframe mockups of how I wanted the website to look.
+I used Balsamic to create wireframe mockups of how I envisioned the website to look.
 These are listed bleow
 
 - wireframes to be added here
 
-
- 
-<!--Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
--->
 ---
 ## <u>Features</u>
+
+As this is a new project the website will consist of 3 pages with view to increase as neccesary (see features left to implement below.)
+Home page, Gallery and Contact page.
+
+#### Fonts
+
+- The main font used is 'Kodchasan' with back-up of  sans-serif  obtained from [Google-fonts](www.fonts.google.com)
+
+#### Images
+
+- Most Images are sourced direct from the singers social media.  In time these can be replaced with higher quality images.  The cover picture was created by the singer.
+
+- [unsplash](www.unsplash.com) used for images as well. see [#credits](#credits)
+
+#### Navbar and footer
+
+- Both have same sytling and colors for consitancy. This is reflected across all pages of the website.
+- Navbar located at top with 'Brand' to the left and a responsive menu on the right. For Mobile and tablet this is 
+  an expanding 'Hamburger' menue opening below the icon to reveal the three pages (Home, Gallery and Contact).
+  On desktop the 'hamburger'  is replaced wth links for the 3 pages.  
+
+- Navbar play button.   Once fully implemented this will allow the user to play a singers song while in the website. 
+
+- Footer is located at the bottom and contains a 'call to action' contact button that takes to contact page.  Below are Social media links.
+
+
+#### Hero Image
+
+- Full size image of the singer that is responsive to device size
+
+#### about-me section
+
+- A brief bio of Nicola
+
+#### Upcoming events carousel.
+
+- A gallery carousel with nicolas upcoming performances, inlcuding dates, time and location.
+
+#### Gallery Page
+
+- Fixed tile gallery of images relating to nicola. Responsive effect when hovering over the pictures. 
+
+#### Contact Page
+
+-  Contains a form for fans or prospective employers to send messages to Nicola
+
 
 <!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.>
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- 
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
--->
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future: -->
 
-### Features Left to Implement
-<!-- - Another feature idea -->  
+#### Future Features 
 
+- Fully functioning Play/stop button in the footer.  Currently can be played, but no control options and icon should ideally change 
+to a pause button.
+
+- Gallery pictures curretly enlarge on hover for desktop, This has no effect on mobile or tablets. Plan to add a large popout carousel of the images when clicked on.
+
+- a Seperate Video/ music page. 
+
+- Merchandise page 
+
+- incorporate a presskit/review section into the website by either a new page or addition to other.
+
+- A News blog which links to recent performances or live stream events as well as other relevant news.
+
+- Higher quality and relavant Images when they become available.
 ---
 ## <u>Technology Used</u>
 
-* [Google Fonts:](https://www.fonts.google.com)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  - Main Programming language
+
+* [CSS](https://en.wikipedia.org/wiki/CSS) 
+
+  - Style sheet language
+
+* [Google Fonts:](https://fonts.google.com/)
 
   - Used to import custom fonts
 
@@ -119,11 +177,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 * [GitHub:](https://www.github.com.com)
 
-  - Used to save the code which is pushed from gitpod. 
+  - Used to store projects created in gitpod. 
 
 * [Gitpod:](https://www.gitpod.io.com)
 
-   - used to create the code and version control using commits and comments.
+   - used to develop the project, including version control (using commits and comments.)
 
 * [Bootstrap 4:](https://www.getbootstrap.com)
 
@@ -131,8 +189,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 * [Balsamic:](https://www.balsamiq.com)
 
-   - Used to create the skeleton of the project and initial feel of how I planned it to look. 
+   - Used to create wirefrme of the project.
 
+* [windows Photo editor](https://www.microsoft.com/en-us/p/photo-editor-for-windows-10/9mzwk7vt6b3g?activetab=pivot:overviewtab)
+
+   - Basic photo editor
 
 ---
 ## <u>Testing</u>
@@ -141,7 +202,7 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Compatibility testing
 ### Code Validation
 ### User stories testing
-### Issues found during site development
+### Issues found during development
 ### Performance testing
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -180,21 +241,46 @@ In addition, if it is not obvious, you should also describe how to run your code
 ---
 ## <u>Credits</u>
 
+### knowledge base and design ideas
+
+* [getbootstrap.com/docs](https://getbootstrap.com)
+
+* [w3schools.com](https://www.w3schools.com)
+
+* [geeksforgeeks](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) -
+changing 'Hamburger' Menu color 
+
+
+
+### Code Templates
+
+- Navbar - [Bootstrap](https://getbootstrap.com/docs/4.6/components/navbar/) 
+- carousel - [Bootstrap](https://getbootstrap.com/docs/4.6/components/carousel/) 
+- gallery grid - [Startbootstrap](https://startbootstrap.com/snippets/thumbnail-gallery)  
+- Contact form -[Bootsnip](https://bootsnipp.com/snippets/qr1zR) 
+ 
+
 ### Content
-<!-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
--->
+
+Bio/about me created by nicola and edited by myself.  
 
 ### Media
 
-<!-- The photos used in this site were obtained from -->
+* Images provided by nicola
 
- 
+* [Unsplash](https://www.unsplash.com) 
+
+   - One photo used of stage
 
 ### Acknowledgements
 
-Code Institute README and Mentor template untilized to meet expected criteria.
+Code Institute README and  template from mentor untilized to meet expected criteria.
 
-Likley remove this to incorporate into content
+[Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - Youtube hosted Front end tutorials.
+
+I came across the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
+I have incorporated the feel of the website to mine.
+
 
  <!-- I received inspiration for this project from X  -->
 
