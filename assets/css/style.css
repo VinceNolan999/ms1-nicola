@@ -22,12 +22,12 @@ body, html {
     font-family: 'Kodchasan', sans-serif;
 
 }
-/*----COLORS--------Nav and footer can be changed here-----------------------
+/*------------------COLORS--------------*/
 
-Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
-
-*/
+/* Credit: https://www.geeksforgeeks.org on how to change hamburger menu color*/
  
+/* Nav and footer colors*/
+
 #main-nav, .social-icon-color i, #main-nav .play-me {
     color: #fafafa;
 }
@@ -49,6 +49,14 @@ Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
 
 .custom-toggler.navbar-toggler:hover {
     opacity: 0.7;
+}
+
+ /* Color for backgrounds on about me, gallery background, contact for background */
+
+.background-theme {
+    background: rgb(168,138,153);
+    background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
+
 }
 
 
@@ -81,10 +89,6 @@ Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
   
 }
    
-
-
-
-
 /*---------------------------Nav Bar-------------------------*/
  #main-nav .navbar-brand {
      font-size: 200%;
@@ -116,6 +120,7 @@ Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
   .navbar-nav {
       opacity: 1.0;
   }
+
 /*---------------------------Article main page------------------*/   
 
 .hero-image {
@@ -125,10 +130,10 @@ Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
     background-position: top;
 }
 
-
 #about-me {
     font-size: 100%;
-    background: #929292;
+    background: rgb(168,138,153);
+    background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
     color: #3e3539;
     border: 1px solid rgb(58, 58, 58);
     padding: 5%;
@@ -143,6 +148,8 @@ Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
 
 #main-carousel {
     box-shadow: 0px 2px 4px 0px rgb(34, 34, 34);
+    background: rgb(168,138,153);
+    background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
     width: 400px;
     height: 300px;
     align-items: center;    
