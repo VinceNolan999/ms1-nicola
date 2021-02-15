@@ -154,6 +154,16 @@ body, html {
     
 }
 
+#carousel-heading h4{
+    text-align: center;
+    color: #fafafa;
+    background: rgb(71, 71, 71);
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    
+}
+
 #main-carousel {
     box-shadow: 0px 2px 4px 0px rgb(34, 34, 34);
     background: rgb(168,138,153);
@@ -341,8 +351,5 @@ background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1)
     }
 
     
-@media(hover: hover) and (pointer: course) {
-    .img-fluid:hover {
-        background: yellow;
     }
 }
