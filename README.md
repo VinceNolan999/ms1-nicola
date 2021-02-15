@@ -205,6 +205,10 @@ to a pause button.
 -  https://validator.w3.org/
 ### User stories testing
 ### Issues found during development
+gallery - adding fluid solved issue with borders on left and right. 
+
+ gallery - xl-3 added for better full screen viewing. md-3 changed to 4 which is better for i-pad pro. scaling of images better.    
+
 ### Performance testing
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the si well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.

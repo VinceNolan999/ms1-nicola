@@ -70,7 +70,6 @@ body, html {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     -moz-transform: scale(1.1); /* mozilla */
-  
 }
    
 /*---------------------------Nav Bar-------------------------*/
@@ -78,8 +77,7 @@ body, html {
      font-size: 200%;
      margin-left: -10px;
      padding-top:1%;
-     padding-bottom: 1%;
-     
+     padding-bottom: 1%;    
  }
       
   #main-nav {
@@ -114,8 +112,7 @@ body, html {
 
 .about-me-inner {
     border: 1px solid rgb(58, 58, 58);
-    padding: 5%;
-    
+    padding: 5%;   
 }
 
 #carousel-heading h4{
@@ -124,8 +121,7 @@ body, html {
     background: rgb(71, 71, 71);
     padding-top: 10px;
     margin-bottom: 0px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
 
 #main-carousel {
@@ -141,15 +137,14 @@ body, html {
     padding: 20px;
     display: flex;
     justify-content: center; 
-
 }
+
 #carousel-outer-box span {
     align-items: center;
 }
 
 /*-------------------Footer------------------
 bug within the icons.  outline-none needed somewhere
-
 */
 
 #call-to-action-bg {
@@ -165,12 +160,11 @@ bug within the icons.  outline-none needed somewhere
     transition: transform .2s; 
 }
 
-.social-network {
-    
+.social-network { 
     padding-bottom: 2%;
     margin-bottom: -1px; /*    -1px corrected bug on i-phone etc */
     text-align: center;
-    }
+}
 
 .social-network li{
     display: inline;  
@@ -186,8 +180,6 @@ bug within the icons.  outline-none needed somewhere
     left: -15px; 
     transition: transform .2s;  
 }
-
-       
 
 #footer-bottom  p {
     font-size: 70%;
@@ -217,35 +209,40 @@ bug within the icons.  outline-none needed somewhere
 .contact{
 		padding: 4%;
 		height: 300px;
-	}
-	.col-md-3{
+}
+
+.col-md-3{
         background: rgb(58, 58, 58);
         color: #fafafa;
 		padding: 4%;
 		border-top-left-radius: 0.5rem;
-        border-bottom-left-radius: 0.5rem;
-        
-	}
-	.contact-info{
+        border-bottom-left-radius: 0.5rem;       
+}
+
+.contact-info{
 		margin-top:10%;
-	}
-	.contact-info img{
+}
+    
+.contact-info img{
 		margin-bottom: 15%;
-	}
-	.contact-info h2{
+}
+    
+.contact-info h2{
 		margin-bottom: 10%;
-	}
-	.col-md-9{
+}
+    
+.col-md-9{
 		background: #a88a99;
 		padding: 3%;
 		border-top-right-radius: 0.5rem;
-        border-bottom-right-radius: 0.5rem;
-        
-	}
-	.contact-form label{
+        border-bottom-right-radius: 0.5rem;      
+}
+
+.contact-form label{
 		font-weight:600;
-	}
-	.contact-form button{
+}
+    
+.contact-form button{
 		background: rgb(58, 58, 58);
 		color: #fff;
 		font-weight: 600;
@@ -277,26 +274,25 @@ bug within the icons.  outline-none needed somewhere
     
 /*--------footer contents resizing to suit desktop---------*/
 
-   #call-to-action-bg {
+#call-to-action-bg {
 
     font-size: 150%;
-   }
-   .social-network i {
+}
+
+.social-network i {
        font-size: 300%;
-   }
+}
 
+/* ------------------  hero Image scaling ------------------- */
 
-
-
-   /* ------------------  hero Image scaling ------------------- */
-   .hero-image{
+.hero-image{
     min-height: 100%;
     background-position: top ;
     background-repeat: no-repeat;
     background-size: cover;
-   }
+}
 
-    }
+}
 
     
     
