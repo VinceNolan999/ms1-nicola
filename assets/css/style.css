@@ -81,17 +81,12 @@ body, html {
      padding-bottom: 1%;
      
  }
-
- #main-nav {
-     font-size: 50%;
-     text-align: center;
-     border:none;
-     padding: 5px 10px 2px;
-     position: absolute;  
-     left: 45%;
-     top: 1rem;
-    }
       
+  #main-nav {
+      
+      font-size: 125%;
+  }
+
   .navbar-nav {
       opacity: 1.0;
   }
@@ -269,6 +264,11 @@ bug within the icons.  outline-none needed somewhere
 
 #main-nav .navbar-brand {
     font-size: 300%;
+}
+
+#main-nav .play-me {
+    font-size: 125%;
+    top: 1.2rem;
 }
 
 .nav-link {
