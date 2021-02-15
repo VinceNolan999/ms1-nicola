@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
 
 /*------------------CONTENTS-----------------------
-   Header
+   Header     
    Colors
-   Effects
+   Effects and Hero image
    Navbar
    Main article page
    Footer
@@ -54,10 +54,6 @@ body, html {
             background-image: url( 
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
         } 
-
-.custom-toggler .navbar-toggler:hover {
-    opacity: 0.7;
-}
 
  /* Color for backgrounds on about me, gallery background, contact background */
 
@@ -128,6 +124,10 @@ body, html {
       opacity: 1.0;
   }
 
+  .custom-toggler .navbar-toggler:hover {
+    opacity: 0.7;
+}
+
 /*---------------------------Article main page------------------*/   
 
 .hero-image {
@@ -180,7 +180,7 @@ body, html {
     align-items: center;
 }
 
-/*--------------------------Footer------------------
+/*-------------------Footer------------------
 bug within the icons.  outline-none needed somewhere
 
 */
@@ -285,9 +285,6 @@ bug within the icons.  outline-none needed somewhere
         width: 25%;
         transition: transform 0.2s;
 }
-
-
-
 
 /* -------------------------Media Query Section--------------------------------
 
