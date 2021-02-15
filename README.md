@@ -270,9 +270,13 @@ Bio/about me created by nicola and edited by myself.
 
 * Images provided by nicola
 
+* Clickplay photos. Dagenhams got talent. Nicola and rebecca
+
 * [Unsplash](https://www.unsplash.com) 
 
    - One photo used of stage
+
+
 
 ### Acknowledgements
 
