@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
 
-/*------------------CONTENTS-----------------------
-   Header     
-   Colors
-   Effects and Hero image
-   Navbar
-   Main article page
-   Footer
-   Gallery
-   Contact
-   Media Query
-*/
-
-
 /*----------------------Header ------------------------*/
 
 body, html {
@@ -23,12 +10,10 @@ body, html {
 
 }
 /*------------------COLORS--------------*/
-
-/* Credit: https://www.geeksforgeeks.org on how to change hamburger menu color*/
  
 /* Nav and footer colors*/
 
-#main-nav, .social-icon-color i, #main-nav .play-me {
+#main-nav, .social-icon-color i, #main-nav {
     color: #fafafa;
 }
 
@@ -41,8 +26,6 @@ body, html {
     background-color: rgb(255, 120, 42);
     box-shadow: 0px 3px 0px 0px rgb(153, 56, 0);
 }
-
-
 
 .custom-toggler.navbar-toggler { 
     border-color: #fafafa;
@@ -62,13 +45,11 @@ body, html {
     background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
     }
 
-
 /* -------------------------EFFECTS and Hero image ----------------------------- */
 
 .hero-image {
     background: url("../media/images/cover3.jpeg") no-repeat center ;
 }
-
 
 .social-network i:hover, #call-to-action-bg a:hover {   /* Footer icons*/
     transform: scale(1.3); 
@@ -101,7 +82,7 @@ body, html {
      
  }
 
- #main-nav .play-me {
+ #main-nav {
      font-size: 50%;
      text-align: center;
      border:none;
@@ -111,15 +92,6 @@ body, html {
      top: 1rem;
     }
       
-  #main-nav .play-me .fa-play-circle {
-      font-size: 250%;
-  }
- 
-  #main-nav .play-me span{
-      display: block;
-      font-size: 0.6rem;      
-  }
-
   .navbar-nav {
       opacity: 1.0;
   }
@@ -297,11 +269,6 @@ bug within the icons.  outline-none needed somewhere
 
 #main-nav .navbar-brand {
     font-size: 300%;
-}
-
-#main-nav .play-me {
-    font-size: 125%;
-    top: 1.2rem;
 }
 
 .nav-link {
