@@ -226,6 +226,10 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 -->
 
+ adding fluid solved issue with borders on left and right.  gallery page images
+
+colom sizes changed for gallery pictures. too much squashing
+
 ---
 ## <u>Deployment</u>
 
@@ -289,6 +293,5 @@ I have incorporated the feel of the website to mine.
 Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
 
  <!-- I received inspiration for this project from X  -->
-
----
+ 
 ## <u>Screenshots</u>
