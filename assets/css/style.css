@@ -289,38 +289,17 @@ bug within the icons.  outline-none needed somewhere
 
 
 
-/* -------------------------Media Query Section--------------------------------
-
- Will only require one size change as site reaponsive for mobil/tablets*/
+/* -------------------------Media Query Section--------------------------------*/
 
 
 @media only screen and (min-width: 992px) {
 
 /*    nav bar contents resizing to suit desktop  */
 
-#main-nav .navbar-brand {
-    font-size: 300%;
-}
-
-#main-nav .play-me {
-    font-size: 125%;
-    top: 1.2rem;
-}
-
-.nav-link {
-    font-size:125%;
-}
     
 /*--------footer contents resizing to suit desktop---------*/
 
-   #call-to-action-bg {
-
-    font-size: 150%;
-   }
-   .social-network i {
-       font-size: 300%;
-   }
-
+  
 
 
 
