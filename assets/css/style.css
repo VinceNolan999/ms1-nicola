@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
 
-/*----------------------Header ------------------------*/
+/*-------------------------------------Header -----------------------------*/
 
 body {
     height: 100%;
@@ -9,7 +9,7 @@ body {
     padding-top: 74px;
     font-family: 'Kodchasan', sans-serif;
 }
-/*------------------COLORS--------------*/
+/*-------------------------------------COLORS------------------------*/
  
           /* Nav and footer colors*/
 
@@ -45,7 +45,7 @@ body {
     background: radial-gradient(circle, rgba(168,138,153,1) 43%, rgba(219,114,124,1) 87%);
     }
 
-/*-------------------------EFFECTS and Hero image ----------------------------- */
+/*---------------------------EFFECTS and Hero image ----------------------------- */
 
  .hero-image {     
     width:100%;
@@ -77,7 +77,7 @@ body {
     -moz-transform: scale(1.1); /* mozilla */
 }
    
-/*---------------------------Nav Bar-------------------------*/
+/*--------------------------------Nav Bar-------------------------*/
 #main-nav {
     min-height: 70px;
 }
@@ -89,7 +89,7 @@ body {
      padding-bottom: 5px;
 }
    
-/*---------------------------Article main page------------------*/   
+/*-----------------------------Article main page------------------*/   
 
 #about-me {
     font-size: 100%;
@@ -104,7 +104,7 @@ body {
     padding: 5%;   
 }
 
-/* ---------- Event section ---------------- */
+/* -------------------------- Event section----- ---------------- */
 
 #event-heading {
     background: rgb(71, 71, 71);
@@ -116,9 +116,14 @@ body {
     margin-bottom: 0;
 }
 
-#event-images {
+.event-outer {
+    background: rgb(71, 71, 71);
+    padding: 0;
+    }
+
+#event-image {
     box-shadow: 0px 2px 4px 0px rgb(34, 34, 34);
-    width: 400px;
+    min-width: 400px;
     height: 300px;
     align-items: center;    
     transition: transform 1s; 
@@ -187,7 +192,7 @@ body {
     transition: transform 0.2s;
 }
 
-/*--------------------------Footer------------------*/
+/*----------------------------------Footer----------------------------*/
 
 .social-network {
     margin-bottom: -1px; 
@@ -220,7 +225,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* -------------------------Media Query Section--------------------------------*/
+/* --------------------------------Media Query Section--------------------------------*/
 @media only screen and (min-width: 768px) {
     .hero-image {
         height: 55vh;
