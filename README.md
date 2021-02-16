@@ -257,7 +257,7 @@ changing 'Hamburger' Menu color
 ### Code Templates
 
 - Navbar - [Bootstrap](https://getbootstrap.com/docs/4.6/components/navbar/) 
-- carousel - [Bootstrap](https://getbootstrap.com/docs/4.6/components/carousel/) 
+- Events - [Bootstrap](https://getbootstrap.com/docs/4.6/components/carousel/) 
 - gallery grid - [Startbootstrap](https://startbootstrap.com/snippets/thumbnail-gallery)  
 - Contact form -[Bootsnip](https://bootsnipp.com/snippets/qr1zR) 
  
@@ -286,7 +286,7 @@ Code Institute README and  template from mentor untilized to meet expected crite
 
 I came across the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
 I have incorporated the feel of the website to mine.
-
+Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
 
  <!-- I received inspiration for this project from X  -->
 
