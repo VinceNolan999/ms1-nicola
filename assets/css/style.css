@@ -120,15 +120,18 @@ body {
     padding: 5%;
     
 }
+/* ---------- Event section ---------------- */
 
-#carousel-heading h4{
-    text-align: center;
-    color: #fafafa;
+#event-heading {
     background: rgb(71, 71, 71);
-    padding-top: 10px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    
+    color: #fafafa;
+    text-align: center;
+}
+
+#event-heading h4 {
+    margin-bottom: 0;
+
+
 }
 
 #main-carousel {
@@ -137,17 +140,6 @@ body {
     height: 300px;
     align-items: center;    
     transition: transform 1s; 
-}
-
-#carousel-outer-box {
-    background: rgb(71, 71, 71);
-    padding: 20px;
-    display: flex;
-    justify-content: center; 
-
-}
-#carousel-outer-box span {
-    align-items: center;
 }
 
 /*--------------------------Footer------------------
@@ -168,8 +160,8 @@ bug within the icons.  outline-none needed somewhere*/
 .social-network i {
     padding-bottom: 10px;
     padding-top: 10px;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 200%;
     border-radius: 0%;
     position: relative;
@@ -250,7 +242,7 @@ bug within the icons.  outline-none needed somewhere*/
 
 /* -------------------------Media Query Section--------------------------------*/
 
-
+/*
 @media only screen and (min-width: 992px) {
 
 /*    nav bar contents resizing to suit desktop  */
@@ -262,7 +254,8 @@ bug within the icons.  outline-none needed somewhere*/
 
 
 
-   /* ------------------  hero Image scaling ------------------- 
+   /* ------------------  hero Image scaling -------------------*/
+   /*
    .hero-image{
     min-height: 100%;
     background-position: top ;
