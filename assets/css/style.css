@@ -88,10 +88,8 @@ body {
    
 /*---------------------------Nav Bar-------------------------*/
 #main-nav{
-   
-    
+    min-height: 70px;
 }
-
  #main-nav .navbar-brand {
      font-size: 200%;
      margin-left: 0px;
@@ -207,8 +205,8 @@ bug within the icons.  outline-none needed somewhere*/
 
 .contact{    
         padding: 10px;
-        padding-top: 50px;
-        padding-bottom: 50px; 
+        padding-top: 20px;
+        padding-bottom: 20px; 
         min-height: 100vh;    
     }
     
