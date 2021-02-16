@@ -97,12 +97,15 @@ body, html {
 }
    
 /*---------------------------Nav Bar-------------------------*/
+#main-nav{
+    height: 5rem;
+}
+
  #main-nav .navbar-brand {
      font-size: 200%;
      margin-left: 0px;
      padding-top: 5px;
-     padding-bottom: 5px; 
-     height: 60px;  
+     padding-bottom: 5px;   
  }
    
   .navbar-nav {
