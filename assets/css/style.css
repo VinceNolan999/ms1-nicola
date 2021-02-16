@@ -88,20 +88,17 @@ body {
    
 /*---------------------------Nav Bar-------------------------*/
 #main-nav{
-    height: 70px; 
+   
+    
 }
 
  #main-nav .navbar-brand {
      font-size: 200%;
      margin-left: 0px;
      padding-top: 5px;
-     padding-bottom: 5px;   
- }
+     padding-bottom: 5px;
+}
    
-  .navbar-nav {
-      opacity: 1.0;
-  }
-
 /*---------------------------Article main page------------------*/   
 
 .hero-image {
