@@ -99,31 +99,12 @@ body, html {
 /*---------------------------Nav Bar-------------------------*/
  #main-nav .navbar-brand {
      font-size: 200%;
-     margin-left: -10px;
-     padding-top:1%;
-     padding-bottom: 1%;
-     
+     margin-left: 0px;
+     padding-top: 5px;
+     padding-bottom: 5px; 
+     height: 60px;  
  }
-
- #main-nav .play-me {
-     font-size: 50%;
-     text-align: center;
-     border:none;
-     padding: 5px 10px 2px;
-     position: absolute;  
-     left: 45%;
-     top: 1rem;
-    }
-      
-  #main-nav .play-me .fa-play-circle {
-      font-size: 250%;
-  }
- 
-  #main-nav .play-me span{
-      display: block;
-      font-size: 0.6rem;      
-  }
-
+   
   .navbar-nav {
       opacity: 1.0;
   }
