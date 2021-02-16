@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&display=swap');
 
-/*------------------CONTENTS-----------------------
-   Header
-   Colors
-   Effects
-   Navbar
-   Main article page
-   Footer
-   Gallery
-   Contact
-   Media Query
-*/
 
 
 /*----------------------Header ------------------------*/
@@ -99,9 +88,7 @@ body {
    
 /*---------------------------Nav Bar-------------------------*/
 #main-nav{
-    height: 70px;
-    
-    
+    height: 70px; 
 }
 
  #main-nav .navbar-brand {
@@ -221,10 +208,13 @@ bug within the icons.  outline-none needed somewhere*/
 
 /*  ----------------------------Contact page----------------------- */
 
-.contact{
-		padding: 4%;
-		height: 300px;
-	}
+.contact{    
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        min-height: 100vh;    
+    }
+    
 	.col-md-3{
         background: rgb(58, 58, 58);
         color: #fafafa;
@@ -234,7 +224,7 @@ bug within the icons.  outline-none needed somewhere*/
         
 	}
 	.contact-info{
-		margin-top:10%;
+		margin-top: 20px;
 	}
 	.contact-info img{
 		margin-bottom: 15%;
