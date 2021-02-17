@@ -121,6 +121,7 @@ body {
 .event {
     background: rgb(71, 71, 71);
     padding-top: 20px;
+   
 }
 
 .event-img{
@@ -196,9 +197,10 @@ body {
 
 /*----------------------------------Footer----------------------------*/
 .footer-main-wrapper {
+    position: relative;
     padding-top: 15px;
-    padding-bottom: 5px;
-}
+ outline-style: solid rgb(34, 34, 34);
+    }
 
 .social-network {
     margin-bottom: -1px; 
@@ -221,7 +223,7 @@ body {
     transition: transform .2s;        
 }  
 
-#footer-bottom {
+#footer-bottom {   
     padding-top: 0px;
     padding-bottom: 20px;
 }
