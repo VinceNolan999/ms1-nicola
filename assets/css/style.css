@@ -21,7 +21,7 @@ body {
     outline-color: #fafafa;
 }    
 
-#main-nav, .social-network-bg, #footer-bottom  p{
+#main-nav, .social-network-bg, #footer-bottom, .footer-main-wrapper{
     background-color: rgb(34, 34, 34);
 }
 
@@ -195,6 +195,10 @@ body {
 }
 
 /*----------------------------------Footer----------------------------*/
+.footer-main-wrapper {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
 
 .social-network {
     margin-bottom: -1px; 
@@ -208,8 +212,8 @@ body {
 .social-network i {
     padding-bottom: 10px;
     padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 200%;
     border-radius: 0%;
     position: relative;
@@ -217,19 +221,27 @@ body {
     transition: transform .2s;        
 }  
 
+#footer-bottom {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
 #footer-bottom  p {
     font-size: 70%;
     text-align: center;
     color: #fafafa;
-    margin: 0;
-    padding-top: 0px;
-    padding-bottom: 10px;
 }
 
 /* --------------------------------Media Query Section--------------------------------*/
 @media only screen and (min-width: 768px) {
     .hero-image {
         height: 55vh;
+    }
+
+    .social-network i{
+        font-size: 275%;
+        padding-right: 7%;
+        padding-left: 7%;
     }
 }
 
@@ -243,17 +255,10 @@ body {
     max-height: 400px;
     width: 400px;
     }
+
+    .social-network i{
+        font-size: 275%;
+        padding-right: 9%;
+        padding-left: 9%;
+    }
 }
-
-    
-
-
-  
-
-/* ------------------  hero Image scaling ------------------- */
-
-
-  
-
-    
-    
