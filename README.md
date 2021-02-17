@@ -62,11 +62,11 @@ I want to update and inform my fans of my singing and songwriting and any new vi
 
 I need a place for potential employers to contact me for booking me.
 
-
-
-
-
 #### User Stories
+
+
+
+
 
 ### Structure of the website
 
@@ -101,14 +101,12 @@ Home page, Gallery and Contact page.
 #### Navbar and footer
 
 - Both have same sytling and colors for consitancy. This is reflected across all pages of the website.
+
 - Navbar located at top with 'Brand' to the left and a responsive menu on the right. For Mobile and tablet this is 
   an expanding 'Hamburger' menue opening below the icon to reveal the three pages (Home, Gallery and Contact).
   On desktop the 'hamburger'  is replaced wth links for the 3 pages.  
 
-- Navbar play button.   Once fully implemented this will allow the user to play a singers song while in the website. 
-
-- Footer is located at the bottom and contains a 'call to action' contact button that takes to contact page.  Below are Social media links.
-
+- Footer is located at the bottom and contains Social media links.
 
 #### Hero Image
 
@@ -118,9 +116,9 @@ Home page, Gallery and Contact page.
 
 - A brief bio of Nicola
 
-#### Upcoming events carousel.
+#### Upcoming events.
 
-- A gallery carousel with nicolas upcoming performances, inlcuding dates, time and location.
+- A gallery with nicolas upcoming performances, inlcuding dates, time and location.
 
 #### Gallery Page
 
@@ -130,23 +128,17 @@ Home page, Gallery and Contact page.
 
 -  Contains a form for fans or prospective employers to send messages to Nicola
 
-
-<!--In this section, you should go over the different parts of your project, and describe each in a sentence or so.>
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future: -->
+- Content form allows for a message to be sent to the site owner.  This could be for prospective employers to make contact to hire nicola , other singers/bands wishing to collaborate
+or Fans to ask questions.
 
 #### Future Features 
 
-- Fully functioning Play/stop button in the footer.  Currently can be played, but no control options and icon should ideally change 
-to a pause button.
+- Fully functioning Play/stop button in the header.  
 
-- Gallery pictures curretly enlarge on hover for desktop, This has no effect on mobile or tablets. Plan to add a large popout carousel of the images when clicked on.
+- Gallery pictures curretly enlarge on hoverct on mobile or for desktop, This has no effe tablets. Plan to add a large popout carousel of the images when clicked on.
 
 - a Seperate Video/ music page. 
 
@@ -157,6 +149,7 @@ to a pause button.
 - A News blog which links to recent performances or live stream events as well as other relevant news.
 
 - Higher quality and relavant Images when they become available.
+
 ---
 ## <u>Technology Used</u>
 
@@ -199,12 +192,19 @@ to a pause button.
 ## <u>Testing</u>
 
 ### Functionality testing
+
+Mozilla Browser used to run Git pod and developer tools used to test 
+
 ### Compatibility testing
 ### Code Validation
 -  https://jigsaw.w3.org/css-validator/
 -  https://validator.w3.org/
 ### User stories testing
 ### Issues found during development
+gallery - adding fluid solved issue with borders on left and right. 
+
+gallery - xl-3 added for better full screen viewing. md-3 changed to 4 which is better for i-pad pro. scaling of images better.    
+
 ### Performance testing
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the si well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -256,19 +256,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 * [geeksforgeeks](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) -
 changing 'Hamburger' Menu color 
 
-
-
 ### Code Templates
 
-- Navbar - [Bootstrap](https://getbootstrap.com/docs/4.6/components/navbar/) 
-- Events - [Bootstrap](https://getbootstrap.com/docs/4.6/components/carousel/) 
-- gallery grid - [Startbootstrap](https://startbootstrap.com/snippets/thumbnail-gallery)  
+- Navbar - [Bootstrap](https://getbootstrap.com/docs/4.6/components/navbar/)   
+- gallery grid and Event grid - [Startbootstrap](https://startbootstrap.com/snippets/thumbnail-gallery)  
 - Contact form -[Bootsnip](https://bootsnipp.com/snippets/qr1zR) 
- 
 
 ### Content
 
-Bio/about me created by nicola and edited by myself.  
+Bio/about me. Created by nicola and edited by myself.  
 
 ### Media
 
@@ -276,11 +272,7 @@ Bio/about me created by nicola and edited by myself.
 
 * Clickplay photos. Dagenhams got talent. Nicola and rebecca
 
-* [Unsplash](https://www.unsplash.com) 
-
-   - One photo used of stage
-
-
+* [Unsplash](https://www.unsplash.com) - photo 12 in gallery - Photo by Robert Vergeson on Unsplash
 
 ### Acknowledgements
 
@@ -288,10 +280,8 @@ Code Institute README and  template from mentor untilized to meet expected crite
 
 [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - Youtube hosted Front end tutorials.
 
-I came across the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
-I have incorporated the feel of the website to mine.
 Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
 
- <!-- I received inspiration for this project from X  -->
+I was inspired by the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
  
 ## <u>Screenshots</u>
