@@ -193,13 +193,15 @@ or Fans to ask questions.
 
 ### Functionality testing
 
-Mozilla Browser used to run Git pod and developer tools used to test 
+Mozilla Browser used to run Gitpod and developer tools used to test 
 
 ### Compatibility testing
+
 ### Code Validation
 -  https://jigsaw.w3.org/css-validator/
 -  https://validator.w3.org/
 ### User stories testing
+
 ### Issues found during development
 gallery - adding fluid solved issue with borders on left and right. 
 
