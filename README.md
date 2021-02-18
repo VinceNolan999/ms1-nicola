@@ -69,6 +69,8 @@ Essentially, this part is your sales pitch.   -->
 
 #### As A returning user.
 
+-  I want to see pictures of nicola.
+
 -  I want to keep upto date where nicola is next performing.
 
 #### WebSite Owner story
@@ -91,7 +93,7 @@ Essentially, this part is your sales pitch.   -->
 - I used Balsamic to create wireframe mockups of how I envisioned the website to look.
 These are listed bleow
 
-- ![wireframes](assets/docs/MS1-wireframe.pn) 
+- ![wireframes](assets/docs/ms1-wireframe.png) 
 
 ---
 ## <u>Features</u>
@@ -202,6 +204,30 @@ or Fans to ask questions.
 ---
 ## <u>Testing</u>
 
+ - Navbar
+    - Clicking on the links from each page takes you to the correct location. 
+    In addition the correct link is hightlighed as the active page.
+    - On gallery and navbar clicking 'Nicola' brand takes to main page.
+    - dropdown menu works correctly on each page.
+
+- Footer 
+    - Clicking Facebook takes you to Facebook.com in a new tab
+    - Clicking Facebook takes you to twitter.com in a new tab
+    - Clicking Facebook takes you to youtube.com in a new tab
+    - Clicking Facebook takes you to instagram.com in a new tab
+        - Checked for all pages.
+
+- Upcoming Events.
+
+   - Hovering over images transitions them larger with no visible issues.
+
+- Gallery
+    - All images have transition effect on hover with no obvious issues. Number of columns changes 
+    depending on virtual device used.
+
+- Contact Page.
+    - 
+
 ### Functionality testing
 
 - Mozilla Browser used to run Gitpod and developer tools used to test , solve problems, style and responsiveness.
@@ -221,6 +247,22 @@ and a Motorola  one+ mobile phone with no issues noted.
 
 
 ### User stories testing
+
+- I want to find out how nicola became a singer.
+    - On main navigation page the about me section is present.
+
+- I want know where and when nicola is next performing
+    - On the main page scrolling to the bottom presents the events section.
+
+- I want to see pictures of nicola.
+    - From the navigation bar I can select the Gallery link which then displays images of Nicola
+ 
+- I want to be able to contact Nicola as I want to hire her to sing at my event.
+    - On the navigation bar there is a link for Contact. Selecting this takes me to a contact form where I can
+    input my details and leave a message.
+
+- I want to contact nicola as I am an artist and qould like to collaborate with nicola.
+    - There is a contact page where I can leave my details and message for nicola.
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately
  believe that the si well. Essentially, in this part you will want to go over all of your user stories from the
