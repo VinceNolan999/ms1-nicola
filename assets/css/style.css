@@ -108,7 +108,8 @@ body {
 
 /* -------------------------- Event section----- ---------------- */
 
-.event h4 {
+.event h2 {
+    font-size: 150%;
     color: #fafafa;
     text-align: center;
     padding-top: 0px;
