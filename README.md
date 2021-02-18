@@ -240,8 +240,15 @@ all the grey lines including them in the footer.
 
 ### Performance testing
 
-I have used Chrome Light house for the perfomance testing.  
- The first pass showed a few performance drops. These included no meta values for the social media links, a h4 header beign used and the biggest drop due to older image format. 
+I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for the performance testing.
+The first attempt showed a few performance drops on mobile devices. These included no meta values for the social media links, a h4 header beign used, no meta description and older image format used.
+
+These were addressed and the results as follows.
+
+![Final performance desktop](assets/docs/performance-desktop.jpg)
+
+![Final performance mobile](assets/docs/performance-mobile.jpg)
+
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the si well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 te works
