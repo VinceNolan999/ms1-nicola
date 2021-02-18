@@ -2,10 +2,9 @@
 
 ## A User-Centric Frontend Milestone Project
 
-This is my first Milestone project with Code Institute and my first ever web design.
+- This is my first Milestone project with Code Institute and my first ever web design.
 I decided to create a website for a famliy member who is a singer along the lines of a suggested project withing the course (Build a website for a band).
 The aim of the project is give my neice web pntial employers.resence and show-case her abilities to fans and potential employers.
-
 
 <!-- One or two paragraphs providing an overview of your project.
 
@@ -40,52 +39,64 @@ Essentially, this part is your sales pitch.   -->
 
  ### User Goals
   
- #### New Fan Goals
+ #### New user Goals
 
-I want to find out more about Nicola.
+- Be able to find out more about Nicola.
 
-I want to see pictures of Nicola.
+- Be able to see pictures of Nicola.
 
-I want to be albe to contact Nicola.
+- Be able to contact Nicola.
 
-I want to be updated on when and where nicola is next performing.
+- Fans, Employers, or artists to be able to contact nicola to hire or collaborate.
 
-#### Returning Fan Goals
+- Be able to see where nicola is next performing.
 
-I want to keep upto date on where Nicola is performing.
+#### Returning User Goals
 
-#### WebSite Owner Goals
+- I want to keep upto date on where Nicola is performing.
 
-I want to have a Web presence so prospecitve employers can find out more about me.
+### User Stories
 
-I want to update and inform my fans of my singing and songwriting and any new videos or music I am producing.
+#### As A New user.
 
-I need a place for potential employers to contact me for booking me.
+- I want to find out how nicola became a singer.
 
-#### User Stories
+- I want know where and when nicola is next performing
+ 
+- I want to be able to contact Nicola as I want to hire her to sing at my event.
 
+- I want to contact nicola as I am an artist and qould like to collaborate with nicola
 
+#### As A returning user.
 
+-  I want to keep upto date where nicola is next performing.
 
+#### WebSite Owner story
+
+- I want to have a Web presence so prospecitve fans/employers/artists can find out more about me.
+
+- Be able to update and inform my fans of my singing and songwriting and any new videos or music I am producing.
+
+- A way for fans/employers/artists to contact me e.g hiring me.
 
 ### Structure of the website
 
-I want the website to be easily accessible, simple to navigate and user freindly. It must also be displayed 
+- I want the website to be easily accessible, simple to navigate and user freindly. It must also be displayed 
   for various devices (desktop ,Tablet, Mobile Phone) whilst maintaining a great user experience . Links within the website directing me to other Pages either within
   this website or to other social media accounts (youtube etc). I waould like to have effects like hover to bring the website alive and encourages interaction.
 
 
 ### Wireframes
 
-I used Balsamic to create wireframe mockups of how I envisioned the website to look.
+- I used Balsamic to create wireframe mockups of how I envisioned the website to look.
 These are listed bleow
 
-- wireframes to be added here
+- ![wireframes](assets/docs/MS1-wireframe.pn) 
 
 ---
 ## <u>Features</u>
 
-As this is a new project the website will consist of 3 pages with view to increase as neccesary (see features left to implement below.)
+- As this is a new project the website will consist of 3 pages with view to increase as neccesary (see features left to implement below.)
 Home page, Gallery and Contact page.
 
 #### Fonts
@@ -126,7 +137,7 @@ Home page, Gallery and Contact page.
 
 #### Contact Page
 
--  Contains a form for fans or prospective employers to send messages to Nicola
+-  Contains a form for fans, prospective employers  or other performers to send messages to Nicola.
 
  
 ### Existing Features
@@ -193,15 +204,15 @@ or Fans to ask questions.
 
 ### Functionality testing
 
-Mozilla Browser used to run Gitpod and developer tools used to test , solve problems, style and responsiveness.
+- Mozilla Browser used to run Gitpod and developer tools used to test , solve problems, style and responsiveness.
 Chrome develeper tools used to check compatibility through-out and to check on consistency of mozilla dev tools.
 
 ### Compatibility testing
 
-I have tested the website on the virtual devices contained with the Dev Tools of Mozilla and Chrome with no 
+- I have tested the website on the virtual devices contained with the Dev Tools of Mozilla and Chrome with no 
 issues seen on either. A wide range of screen sizes tested from mobile, tablet and desktop.
 
-I have tested compatability on the github pages published website of the project on a 1920 x 1080 monitor, a galaxy s7 
+- I have tested compatability on the github pages published website of the project on a 1920 x 1080 monitor, a galaxy s7 
 and a Motorola  one+ mobile phone with no issues noted.
 
 ### Code Validation
@@ -211,50 +222,15 @@ and a Motorola  one+ mobile phone with no issues noted.
 
 ### User stories testing
 
-### Issues found during development
-
-Fixed Navbar caused content go underneath. After trying margins and paddings on the divs and sections to solve this to 
-no avail I found that using padding-top on the body tag pushed content lower and solved the issue. This led to other issues where 
-I then made the navbar a fixed height which caused no background to be displayed on the drop down menu. This was fixed 
-by changing to min-height for navbar and therefore making sizing of the navbar predictable and easier.
-
-Initially had a carousel to display the event section, this caused some issues where the page seems to be flicking when the image changed.
-This feature didnt look particually good so was removed with advice from the mentor.  
-
-gallery images - adding container- fluid solved issue with borders on left and right. 
-
-gallery image display. column sizes changed for better layout. xl-3 added for full screen viewing. md-3 changed to 4 which is better for i-pad pro. scaling of images better.
-They were becoming squashed as too many items being displayed.  I have set media queries for different veiw sizes to 
-keep them at the intended sizes.
-
-The contact page had a minor display issue when viewing on small mobile devices. When the contents were moved into block form
-the background was showing where it should be the contents box.  Issue resolved by adding 5px to the padding-right.
-
-The Navbar had a particually annoying issue that was limited to Ipad devices where 1px grey horizontal lines were visible in the footer section of all pages
-and also inbetween the event heading and event images.  This was solved for me by moving the ' h4 - Upcoming events' onto the top of the box container for 
-the events section.  Prior to this it was nested above in its own Div that closed at start of the event images. This coincidently stopped
-all the grey lines including them in the footer.
+<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately
+ believe that the si well. Essentially, in this part you will want to go over all of your user stories from the
+  UX section and ensure that they all work as intended, with the project providing an easy and straightforward 
+  way for the users to achieve their goals.
 
 
 
-
-### Performance testing
-
-I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for the performance testing.
-The first attempt showed a few performance drops on mobile devices. These included no meta values for the social media links, a h4 header beign used, no meta description and older image format used.
-
-These were addressed and the results as follows.
-
-![Final performance desktop](assets/docs/performance-desktop.jpg)
-
-![Final performance mobile](assets/docs/performance-mobile.jpg)
-
-
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the si well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-te works
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is 
+relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
     1. Go to the "Contact Us" page
@@ -264,12 +240,53 @@ For any scenarios that have not been automated, test the user stories manually a
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 -->
 
- 
+
+
+### Issues found during development
+
+- Fixed Navbar caused content go underneath. After trying margins and paddings on the divs and sections to solve this to 
+no avail I found that using padding-top on the body tag pushed content lower and solved the issue. This led to other issues where 
+I then made the navbar a fixed height which caused no background to be displayed on the drop down menu. This was fixed 
+by changing to min-height for navbar and therefore making sizing of the navbar predictable and easier.
+
+- Initially had a carousel to display the event section, this caused some issues where the page seems to be flicking when the image changed.
+This feature didnt look particually good so was removed with advice from the mentor.  
+
+- gallery images - adding container- fluid solved issue with borders on left and right. 
+
+- gallery image display. column sizes changed for better layout. xl-3 added for full screen viewing. md-3 changed to 4 which is better for i-pad pro. scaling of images better.
+They were becoming squashed as too many items being displayed.  I have set media queries for different veiw sizes to 
+keep them at the intended sizes.
+
+- The contact page had a minor display issue when viewing on small mobile devices. When the contents were moved into block form
+the background was showing where it should be the contents box.  Issue resolved by adding 5px to the padding-right.
+
+- The Navbar had a particually annoying issue that was limited to Ipad devices where 1px grey horizontal lines were visible in the footer section of all pages
+and also inbetween the event heading and event images.  This was solved for me by moving the ' h4 - Upcoming events' onto the top of the box container for 
+the events section.  Prior to this it was nested above in its own Div that closed at start of the event images. This coincidently stopped
+all the grey lines including them in the footer.
+
+
+
+
+### Performance testing
+
+  - I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for the performance testing.
+The first attempt showed a few performance drops on mobile devices. These included no meta values for the social media links, a h4 header beign used, no meta description and older image format used.
+
+- These were addressed and the results as follows.
+
+#### Desktop performance
+
+![Final performance desktop](assets/docs/performance-desktop.png)
+
+#### Mobile Performance
+
+![Final performance mobile](assets/docs/performance-mobile.JPG)
+
+- PDF of results contained within assets/docs.
 
 ---
 ## <u>Deployment</u>
@@ -305,24 +322,24 @@ changing 'Hamburger' Menu color
 
 ### Content
 
-Bio/about me. Created by nicola and edited by myself.  
+- Bio/about me. Created by nicola and edited by myself.  
 
 ### Media
 
-* Images provided by nicola
+- Images provided by nicola
 
-* Clickplay photos. Dagenhams got talent. Nicola and rebecca
+- Clickplay photos. Dagenhams got talent. Nicola and rebecca
 
-* [Unsplash](https://www.unsplash.com) - photo 12 in gallery - Photo by Robert Vergeson on Unsplash
+- [Unsplash](https://www.unsplash.com) - photo 12 in gallery - Photo by Robert Vergeson on Unsplash
 
 ### Acknowledgements
 
-Code Institute README and  template from mentor untilized to meet expected criteria.
+- Code Institute README and  template from mentor untilized to meet expected criteria.
 
-[Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - Youtube hosted Front end tutorials.
+- [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - Youtube hosted Front end tutorials.
 
-Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
+- Credit: https://www.geeksforgeeks.org on how to change hamburger menu color
 
-I was inspired by the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
+- I was inspired by the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
  
 ## <u>Screenshots</u>
