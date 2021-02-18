@@ -205,8 +205,10 @@ I have tested compatability on the github pages published website of the project
 and a Motorola  one+ mobile phone with no issues noted.
 
 ### Code Validation
--  https://jigsaw.w3.org/css-validator/
--  https://validator.w3.org/
+-  https://jigsaw.w3.org/css-validator/   - passed with no errors found. This document validates as CSS level 3 + null !
+-  https://validator.w3.org/ - all pages checked with no issues. 
+
+
 ### User stories testing
 
 ### Issues found during development
@@ -237,6 +239,9 @@ all the grey lines including them in the footer.
 
 
 ### Performance testing
+
+I have used Chrome Light house for the perfomance testing.  
+ The first pass showed a few performance drops. These included no meta values for the social media links, a h4 header beign used and the biggest drop due to older image format. 
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the si well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 te works
