@@ -193,9 +193,13 @@ or Fans to ask questions.
 
 ### Functionality testing
 
-Mozilla Browser used to run Gitpod and developer tools used to test 
+Mozilla Browser used to run Gitpod and developer tools used to test , solve problems m style and responsiveness.
+Chrome develeper tools used to check compatibility through-out and to check on consistency of mozilla dev tools.
 
 ### Compatibility testing
+
+I have tested the website on the virtual devices contained with the Dev Tools of Mozilla and Chrome with no 
+issues seen on either. A wide range of screen sizes tested from mobile, tablet and desktop.
 
 ### Code Validation
 -  https://jigsaw.w3.org/css-validator/
