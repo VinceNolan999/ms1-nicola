@@ -193,7 +193,7 @@ or Fans to ask questions.
 
 ### Functionality testing
 
-Mozilla Browser used to run Gitpod and developer tools used to test , solve problems m style and responsiveness.
+Mozilla Browser used to run Gitpod and developer tools used to test , solve problems, style and responsiveness.
 Chrome develeper tools used to check compatibility through-out and to check on consistency of mozilla dev tools.
 
 ### Compatibility testing
@@ -201,15 +201,40 @@ Chrome develeper tools used to check compatibility through-out and to check on c
 I have tested the website on the virtual devices contained with the Dev Tools of Mozilla and Chrome with no 
 issues seen on either. A wide range of screen sizes tested from mobile, tablet and desktop.
 
+I have tested compatability on the github pages published website of the project on a 1920 x 1080 monitor, a galaxy s7 
+and a Motorola  one+ mobile phone with no issues noted.
+
 ### Code Validation
 -  https://jigsaw.w3.org/css-validator/
 -  https://validator.w3.org/
 ### User stories testing
 
 ### Issues found during development
-gallery - adding fluid solved issue with borders on left and right. 
 
-gallery - xl-3 added for better full screen viewing. md-3 changed to 4 which is better for i-pad pro. scaling of images better.    
+Fixed Navbar caused content go underneath. After trying margins and paddings on the divs and sections to solve this to 
+no avail I found that using padding-top on the body tag pushed content lower and solved the issue. This led to other issues where 
+I then made the navbar a fixed height which caused no background to be displayed on the drop down menu. This was fixed 
+by changing to min-height for navbar and therefore making sizing of the navbar predictable and easier.
+
+Initially had a carousel to display the event section, this caused some issues where the page seems to be flicking when the image changed.
+This feature didnt look particually good so was removed with advice from the mentor.  
+
+gallery images - adding container- fluid solved issue with borders on left and right. 
+
+gallery image display. column sizes changed for better layout. xl-3 added for full screen viewing. md-3 changed to 4 which is better for i-pad pro. scaling of images better.
+They were becoming squashed as too many items being displayed.  I have set media queries for different veiw sizes to 
+keep them at the intended sizes.
+
+The contact page had a minor display issue when viewing on small mobile devices. When the contents were moved into block form
+the background was showing where it should be the contents box.  Issue resolved by adding 5px to the padding-right.
+
+The Navbar had a particually annoying issue that was limited to Ipad devices where 1px grey horizontal lines were visible in the footer section of all pages
+and also inbetween the event heading and event images.  This was solved for me by moving the ' h4 - Upcoming events' onto the top of the box container for 
+the events section.  Prior to this it was nested above in its own Div that closed at start of the event images. This coincidently stopped
+all the grey lines including them in the footer.
+
+
+
 
 ### Performance testing
 
@@ -232,9 +257,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 -->
 
- adding fluid solved issue with borders on left and right.  gallery page images
-
-colom sizes changed for gallery pictures. too much squashing
+ 
 
 ---
 ## <u>Deployment</u>
