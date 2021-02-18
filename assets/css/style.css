@@ -200,7 +200,8 @@ body {
 .footer-main-wrapper {
     position: relative;
     padding-top: 20px;
-    outline-style: solid rgb(34, 34, 34);
+    outline-style: solid;
+    outline-color: rgb(34, 34, 34);
 }
 
 .social-network {
