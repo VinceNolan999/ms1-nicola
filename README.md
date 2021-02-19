@@ -293,10 +293,15 @@ keep them at the intended sizes.
 - The contact page had a minor display issue when viewing on small mobile devices. When the contents were moved into block form
 the background was showing where it should be the contents box.  Issue resolved by adding 5px to the padding-right.
 
+- The contact page dsiplay was having issues with tablet displays. White space present at the bottom due to height of dispaly. Scaled well on mobile/desktop. 
+setting vh-100 solved this however then caused issue with the block element overlapping low height display. 
+Finally settled on including a min-height of 790px which fixed the height issues.
+
 - The Navbar had a particually annoying issue that was limited to Ipad devices where 1px grey horizontal lines were visible in the footer section of all pages
 and also inbetween the event heading and event images.  This was solved for me by moving the ' h4 - Upcoming events' onto the top of the box container for 
 the events section.  Prior to this it was nested above in its own Div that closed at start of the event images. This coincidently stopped
 all the grey lines including them in the footer.
+
 
 ### Performance testing
 
