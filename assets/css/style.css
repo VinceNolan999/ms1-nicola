@@ -140,8 +140,8 @@ body {
     padding: 10px ;
     margin: 0 auto;
     box-shadow: 0px 2px 4px 0px rgb(58, 58, 58);
-    width: 400px;
-    height: 300px; 
+    width: 360px;
+    height: 270px; 
     transition: transform .2s;    
 }
 
