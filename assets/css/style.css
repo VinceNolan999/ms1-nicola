@@ -94,10 +94,10 @@ body {
 
 #about-me {
     font-size: 100%;
-    color: #3e3539;
+    color: rgb(34, 34, 34);
     padding: 25px;
     font-size: 1rem;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 
