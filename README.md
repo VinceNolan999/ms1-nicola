@@ -389,3 +389,5 @@ changing 'Hamburger' Menu color
 - I was inspired by the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
  
 ## <u>Screenshots</u>
+
+![screenshot]

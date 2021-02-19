@@ -47,13 +47,11 @@ body {
 
 /*---------------------------EFFECTS and Hero image ----------------------------- */
 
-.hero-image {     
+.hero-image {  
     width:100%;
-    height: 40vh;
-    background: url(../media/images/cover3.jpg);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size:cover; 
+    background-position: center center;
+    background-size: cover;   
 }
     
 .social-network i:hover {   /* Footer icons*/
@@ -241,10 +239,7 @@ body {
 /* --------------------------------Media Query Section--------------------------------*/
 
 @media only screen and (min-width: 768px) {
-    .hero-image {
-        height: 55vh;
-    }
-
+    
     #about-me {
         line-height: 1.4;
     }
@@ -257,10 +252,6 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    .hero-image {
-        height: 85vh;
-        background-size: cover;
-    }
 
     .social-network i{
         font-size: 275%;
