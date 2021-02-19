@@ -223,8 +223,8 @@ or Fans to ask questions.
     depending on virtual device used.
 
 - Contact Page.
-    - testing revealed missing 'required' and also form not acting as expected. Issued resolved now. bootsnipp template contact form
-    did not start with the form heading and was not displaying the 'please fill in this field' for the input boxes.
+    - testing revealed missing 'required' and also contact form not acting as expected. Issue resolved now. bootsnipp template contact form
+    did not start with the 'form' heading and was not displaying the 'please fill in this field' for the input boxes as a result.
 
     - test: left first name blank.  pressed submit, box red outline  around all boxes and 'please fill in field'.
     - test: left first name entered.   pressed submit, red outline in empty boxes and 'please fill in field' shown in last name.
