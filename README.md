@@ -62,7 +62,7 @@ The aim of the project is give my neice web pntial employers.resence and show-ca
  
 - I want to be able to contact Nicola as I want to hire her to sing at my event.
 
-- I want to contact nicola as I am an artist and qould like to collaborate with nicola
+- I want to contact nicola as I am an artist and would like to collaborate with nicola
 
 #### As A returning user.
 
@@ -82,7 +82,7 @@ The aim of the project is give my neice web pntial employers.resence and show-ca
 
 - I want the website to be easily accessible, simple to navigate and user freindly. It must also be displayed 
   for various devices (desktop ,Tablet, Mobile Phone) whilst maintaining a great user experience . Links within the website directing me to other Pages either within
-  this website or to other social media accounts (youtube etc). I waould like to have effects like hover to bring the website alive and encourages interaction.
+  this website or to other social media accounts (youtube etc). I would like to have effects like hover to bring the website alive and encourages interaction.
 
 
 ### Wireframes
@@ -110,10 +110,10 @@ Home page, Gallery and Contact page.
 
 #### Navbar and footer
 
-- Both have same sytling and colors for consitancy. This is reflected across all pages of the website.
+- Both have same styling and colors for consistency. This is reflected across all pages of the website.
 
 - Navbar located at top with 'Brand' to the left and a responsive menu on the right. For Mobile and tablet this is 
-  an expanding 'Hamburger' menue opening below the icon to reveal the three pages (Home, Gallery and Contact).
+  an expanding 'Hamburger' menu opening below the icon to reveal the three pages (Home, Gallery and Contact).
   On desktop the 'hamburger'  is replaced wth links for the 3 pages.  
 
 - Footer is located at the bottom and contains Social media links.
@@ -128,7 +128,7 @@ Home page, Gallery and Contact page.
 
 #### Upcoming events.
 
-- A gallery with nicolas upcoming performances, inlcuding dates, time and location.
+- A gallery with Nicola's upcoming performances, inlcuding dates, time and location.
 
 #### Gallery Page
 
@@ -148,13 +148,13 @@ or Fans to ask questions.
 
 - Fully functioning Play/stop button in the header.  
 
-- Gallery pictures curretly enlarge on hoverct on mobile or for desktop, This has no effe tablets. Plan to add a large popout carousel of the images when clicked on.
+- Gallery pictures currently enlarges on hover. Plan to add a large popout carousel of the images when clicked on.
 
 - a Seperate Video/ music page. 
 
 - Merchandise page 
 
-- incorporate a presskit/review section into the website by either a new page or addition to other.
+- incorporate a press kit/review section into the website by either a new page or addition to existing.
 
 - A News blog which links to recent performances or live stream events as well as other relevant news.
 
@@ -188,7 +188,7 @@ or Fans to ask questions.
 
 * [Bootstrap 4:](https://www.getbootstrap.com)
 
-  - used to assist in a responsive site with a mobile first ethos 
+  - used to assist in a responsive site with a mobile first approach. 
 
 * [Balsamic:](https://www.balsamiq.com)
 
@@ -223,8 +223,9 @@ or Fans to ask questions.
     depending on virtual device used.
 
 - Contact Page.
-    - testing revealed missing 'required' and also contact form not acting as expected. Issue resolved now. bootsnipp template contact form
-    did not start with the 'form' heading and was not displaying the 'please fill in this field' for the input boxes as a result.
+    - testing revealed missing 'required' and also contact form not acting as expected. Bootsnipp template contact form
+    did not start with the 'form' heading and was not displaying the 'please fill in this field' for the input boxes as a result. 
+    This has been fixed.
 
     - test: left first name blank.  pressed submit, box red outline  around all boxes and 'please fill in field'.
     - test: left first name entered.   pressed submit, red outline in empty boxes and 'please fill in field' shown in last name.
@@ -236,7 +237,7 @@ or Fans to ask questions.
 ### Functionality testing
 
 - Mozilla Browser used to run Gitpod and developer tools used to test , solve problems, style and responsiveness.
-Chrome develeper tools used to check compatibility through-out and to check on consistency of mozilla dev tools.
+Chrome develeper tools used to check compatibility during project and to check on consistency of mozilla dev tools.
 
 ### Compatibility testing
 
@@ -253,7 +254,7 @@ and a Motorola  one+ mobile phone with no issues noted.
     - all pages checked with no issues. 
 -  https://wave.webaim.org/ - A web accessibility checker
     - no errors or contrast errors detected. 
-    - contrast passed . Contrast Ratio of 5.08 on about me page.
+    - contrast passed . Contrast Ratio of 5.08 on about me page and 5.12 on contact page.
 
 ### User stories testing
 
@@ -297,9 +298,6 @@ and also inbetween the event heading and event images.  This was solved for me b
 the events section.  Prior to this it was nested above in its own Div that closed at start of the event images. This coincidently stopped
 all the grey lines including them in the footer.
 
-
-
-
 ### Performance testing
 
   - I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for the performance testing.
@@ -319,6 +317,13 @@ The first attempt showed a few performance drops on mobile devices. These includ
 
 ---
 ## <u>Deployment</u>
+My project was developed on Gitpod with regular commits during development to Github via pushing. This also ensured against data loss.
+
+To deploy my project in github I took the following steps.
+- Select the repository in github. [milestone1] https://github.com/VinceNolan999/ms1-nicola
+- Click on the settigs button
+- locate the Github pages section.
+- select 'save' 
 
 <!--
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
