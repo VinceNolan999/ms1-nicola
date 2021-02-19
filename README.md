@@ -320,11 +320,23 @@ The first attempt showed a few performance drops on mobile devices. These includ
 My project was developed on Gitpod with regular commits during development to Github via pushing. This also ensured against data loss.
 
 To deploy my project in github I took the following steps.
-- Select the repository in github. [milestone1] https://github.com/VinceNolan999/ms1-nicola
+
+- Login and Select the repository in github. ([ms1-nicola](https://github.com/VinceNolan999/ms1-nicola))
 - Click on the settigs button
 - locate the Github pages section.
-- select 'save' 
+- select 'save' and then refresh or an auto refresh
+- Diplayed at top of Github pages - Your site is published at https://vincenolan999.github.io/ms1-nicola/
 
+To Deploy locally.
+- Login and Select the repository in github. [ms1-nicola](https://github.com/VinceNolan999/ms1-nicola)
+- goto 'code' and  'download zip'
+- locate the ZIP file, unpack and deploy into your local enviroment.
+
+Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([ms1-nicola](https://github.com/VinceNolan999/ms1-nicola)) into your github account.
+
+[Back to Table of contents](#table-of-contents)
 <!--
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
