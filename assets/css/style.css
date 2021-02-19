@@ -147,11 +147,11 @@ body {
 
 /*  ----------------------------Contact page----------------------- */
 
-.contact {    
-    padding: 10px;
+.contact {     
     padding-top: 20px;
-    padding-bottom: 10px; 
-    padding-right:15px; 
+    padding-bottom: 60px; 
+    padding-right:15px;
+    min-height: 790px;  
 }
     
 .col-md-3 {
