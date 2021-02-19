@@ -124,8 +124,10 @@ body {
 }
 
 .event-img{
-    padding: 10px ;
+    
     margin: 0 auto;
+    height: 170px;
+    width: 300px;
     box-shadow: 0px 2px 4px 0px #fafafa;
     transition: transform .2s; 
     background-color: #fafafa;
@@ -260,14 +262,10 @@ body {
         background-size: cover;
     }
 
-    .event-img {
-    max-height: 400px;
-    width: 400px;
-    }
-
     .social-network i{
         font-size: 275%;
         padding-right: 9%;
         padding-left: 9%;
     }
+    
 }
