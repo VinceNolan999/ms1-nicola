@@ -193,9 +193,10 @@ body {
 
 .contact-form button {
 	background: rgb(58, 58, 58);
-	color: #fafafa;
-	font-weight: 600;
-    width: 25%;
+    color: #fafafa;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 105%;
     transition: transform 0.2s;
 }
 
