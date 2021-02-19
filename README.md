@@ -6,9 +6,6 @@
 I decided to create a website for a famliy member who is a singer along the lines of a suggested project withing the course (Build a website for a band).
 The aim of the project is give my neice web pntial employers.resence and show-case her abilities to fans and potential employers.
 
-<!-- One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.   -->
 ---
 ## <u>Table of Contents</u>
 
@@ -226,7 +223,15 @@ or Fans to ask questions.
     depending on virtual device used.
 
 - Contact Page.
-    - 
+    - testing revealed missing 'required' and also form not acting as expected. Issued resolved now. bootsnipp template contact form
+    did not start with the form heading and was not displaying the 'please fill in this field' for the input boxes.
+
+    - test: left first name blank.  pressed submit, box red outline  around all boxes and 'please fill in field'.
+    - test: left first name entered.   pressed submit, red outline in empty boxes and 'please fill in field' shown in last name.
+    - test: invalid email entered. Requested valid email and red outline.
+    - test: valid email entered and works as expected.
+    - test: all inputs completed except comment box.  red outline on comments and 'please fill in field' shown.
+    - test: all fields completed correclty.  Upon submit the entrys act as thou they are sent and form resets.
 
 ### Functionality testing
 
@@ -263,28 +268,6 @@ and a Motorola  one+ mobile phone with no issues noted.
 
 - I want to contact nicola as I am an artist and qould like to collaborate with nicola.
     - There is a contact page where I can leave my details and message for nicola.
-
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately
- believe that the si well. Essentially, in this part you will want to go over all of your user stories from the
-  UX section and ensure that they all work as intended, with the project providing an easy and straightforward 
-  way for the users to achieve their goals.
-
-
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is 
-relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
--->
-
-
 
 ### Issues found during development
 
