@@ -1,5 +1,11 @@
 # Nicola - A Singers Website
 
+## <u>Screenshots</u>
+
+![screenshot](assets/docs/ms1-screenshot.JPG)
+
+### [Link to Live Github hosted website](https://vincenolan999.github.io/ms1-nicola/)
+
 ## A User-Centric Frontend Milestone Project
 
 - This is my first Milestone project with Code Institute and my first ever web design.
@@ -160,6 +166,8 @@ or Fans to ask questions.
 
 - Higher quality and relavant Images when they become available.
 
+[Back to Table of contents](#table-of-contents)
+
 ---
 ## <u>Technology Used</u>
 
@@ -197,6 +205,8 @@ or Fans to ask questions.
 * [windows Photo editor](https://www.microsoft.com/en-us/p/photo-editor-for-windows-10/9mzwk7vt6b3g?activetab=pivot:overviewtab)
 
    - Basic photo editor
+
+[Back to Table of contents](#table-of-contents)
 
 ---
 ## <u>Testing</u>
@@ -320,6 +330,8 @@ The first attempt showed a few performance drops on mobile devices. These includ
 
 - PDF of results contained within assets/docs.
 
+[Back to Table of contents](#table-of-contents)
+
 ---
 ## <u>Deployment</u>
 My project was developed on Gitpod with regular commits during development to Github via pushing. This also ensured against data loss.
@@ -342,16 +354,6 @@ or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started
 this repository ([ms1-nicola](https://github.com/VinceNolan999/ms1-nicola)) into your github account.
 
 [Back to Table of contents](#table-of-contents)
-<!--
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
--->
 
 ---
 ## <u>Credits</u>
@@ -385,7 +387,7 @@ changing 'Hamburger' Menu color
 
 ### Acknowledgements
 
-- Code Institute README and  template from mentor untilized to meet expected criteria.
+- Code Institute README template from mentor Adee Adeye untilized to meet expected critria.  
 
 - [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - Youtube hosted Front end tutorials.
 
@@ -393,6 +395,4 @@ changing 'Hamburger' Menu color
 
 - I was inspired by the website of [Erin Wall](http://www.erinwall.com/) which really drew my attention to its structure and layout
  
-## <u>Screenshots</u>
-
-![screenshot]
+[Back to Table of contents](#table-of-contents)
