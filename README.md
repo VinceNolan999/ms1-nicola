@@ -253,6 +253,7 @@ and a Motorola  one+ mobile phone with no issues noted.
     - all pages checked with no issues. 
 -  https://wave.webaim.org/ - A web accessibility checker
     - no errors or contrast errors detected. 
+    - contrast passed . Contrast Ratio of 5.08 on about me page.
 
 ### User stories testing
 
