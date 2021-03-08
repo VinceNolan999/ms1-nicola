@@ -9,8 +9,8 @@
 ## A User-Centric Frontend Milestone Project
 
 - This is my first Milestone project with Code Institute and my first ever web design.
-I decided to create a website for a famliy member who is a singer along the lines of a suggested project withing the course (Build a website for a band).
-The aim of the project is give my neice web pntial employers.resence and show-case her abilities to fans and potential employers.
+I decided to create a website for a family member who is a singer along the lines of a suggested project withing the course (Build a website for a band).
+The aim of the project is give my niece web presence for potential employers and show-case her abilities to fans and potential employers.
 
 ---
 ## <u>Table of Contents</u>
@@ -47,35 +47,35 @@ The aim of the project is give my neice web pntial employers.resence and show-ca
 
 - Be able to contact Nicola.
 
-- Fans, Employers, or artists to be able to contact nicola to hire or collaborate.
+- Fans, Employers, or artists to be able to contact Nicola to hire or collaborate.
 
-- Be able to see where nicola is next performing.
+- Be able to see where Nicola is next performing.
 
 #### Returning User Goals
 
-- I want to keep upto date on where Nicola is performing.
+- I want to keep up-to date on where Nicola is performing.
 
 ### User Stories
 
 #### As A New user.
 
-- I want to find out how nicola became a singer.
+- I want to find out how Nicola became a singer.
 
-- I want know where and when nicola is next performing
+- I want know where and when Nicola is next performing
  
 - I want to be able to contact Nicola as I want to hire her to sing at my event.
 
-- I want to contact nicola as I am an artist and would like to collaborate with nicola
+- I want to contact Nicola as I am an artist and would like to collaborate with Nicola
 
 #### As A returning user.
 
--  I want to see pictures of nicola.
+-  I want to see pictures of Nicola.
 
--  I want to keep upto date where nicola is next performing.
+-  I want to keep up-to date where Nicola is next performing.
 
 #### WebSite Owner story
 
-- I want to have a Web presence so prospecitve fans/employers/artists can find out more about me.
+- I want to have a Web presence so prospective fans/employers/artists can find out more about me.
 
 - Be able to update and inform my fans of my singing and songwriting and any new videos or music I am producing.
 
@@ -83,22 +83,22 @@ The aim of the project is give my neice web pntial employers.resence and show-ca
 
 ### Structure of the website
 
-- I want the website to be easily accessible, simple to navigate and user freindly. It must also be displayed 
+- I want the website to be easily accessible, simple to navigate and user friendly. It must also be displayed 
   for various devices (desktop ,Tablet, Mobile Phone) whilst maintaining a great user experience . Links within the website directing me to other Pages either within
   this website or to other social media accounts (youtube etc). I would like to have effects like hover to bring the website alive and encourages interaction.
 
 
 ### Wireframes
 
-- I used Balsamic to create wireframe mockups of how I envisioned the website to look.
-These are listed bleow
+- I used Balsamic to create wireframe mock ups of how I envisioned the website to look.
+These are listed below
 
 - ![wireframes](assets/docs/ms1-wireframe.png) 
 
 ---
 ## <u>Features</u>
 
-- As this is a new project the website will consist of 3 pages with view to increase as neccesary (see features left to implement below.)
+- As this is a new project the website will consist of 3 pages with view to increase as necessary (see features left to implement below.)
 Home page, Gallery and Contact page.
 
 #### Fonts
@@ -117,7 +117,7 @@ Home page, Gallery and Contact page.
 
 - Navbar located at top with 'Brand' to the left and a responsive menu on the right. For Mobile and tablet this is 
   an expanding 'Hamburger' menu opening below the icon to reveal the three pages (Home, Gallery and Contact).
-  On desktop the 'hamburger'  is replaced wth links for the 3 pages.  
+  On desktop the 'hamburger'  is replaced with links for the 3 pages.  
 
 - Footer is located at the bottom and contains Social media links.
 
@@ -131,11 +131,11 @@ Home page, Gallery and Contact page.
 
 #### Upcoming events.
 
-- A gallery with Nicola's upcoming performances, inlcuding dates, time and location.
+- A gallery with Nicola's upcoming performances, including dates, time and location.
 
 #### Gallery Page
 
-- Fixed tile gallery of images relating to nicola. Responsive effect when hovering over the pictures. 
+- Fixed tile gallery of images relating to Nicola. Responsive effect when hovering over the pictures. 
 
 #### Contact Page
 
@@ -144,16 +144,16 @@ Home page, Gallery and Contact page.
  
 ### Existing Features
 
-- Content form allows for a message to be sent to the site owner.  This could be for prospective employers to make contact to hire nicola , other singers/bands wishing to collaborate
+- Content form allows for a message to be sent to the site owner.  This could be for prospective employers to make contact to hire Nicola , other singers/bands wishing to collaborate
 or Fans to ask questions.
 
 #### Future Features 
 
 - Fully functioning Play/stop button in the header.  
 
-- Gallery pictures currently enlarges on hover. Plan to add a large popout carousel of the images when clicked on.
+- Gallery pictures currently enlarges on hover. Plan to add a large pop-out carousel of the images when clicked on.
 
-- a Seperate Video/ music page. 
+- a Separate Video/ music page. 
 
 - Merchandise page 
 
@@ -161,7 +161,7 @@ or Fans to ask questions.
 
 - A News blog which links to recent performances or live stream events as well as other relevant news.
 
-- Higher quality and relavant Images when they become available.
+- Higher quality and relevant Images when they become available.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -179,7 +179,7 @@ or Fans to ask questions.
 
   - Used to import custom fonts
 
-* [Font Awsome:](https://www.fontawesome.com) 
+* [Font Awesome:](https://www.fontawesome.com) 
 
   - Used to import icons
 
@@ -197,7 +197,7 @@ or Fans to ask questions.
 
 * [Balsamic:](https://www.balsamiq.com)
 
-   - Used to create wirefrme of the project.
+   - Used to create wireframe of the project.
 
 * [windows Photo editor](https://www.microsoft.com/en-us/p/photo-editor-for-windows-10/9mzwk7vt6b3g?activetab=pivot:overviewtab)
 
@@ -210,9 +210,9 @@ or Fans to ask questions.
 
  - Navbar
     - Clicking on the links from each page takes you to the correct location. 
-    In addition the correct link is hightlighed as the active page.
-    - On gallery and navbar clicking 'Nicola' brand takes to main page.
-    - dropdown menu works correctly on each page.
+    In addition the correct link is highlighted as the active page.
+    - On gallery and Navbar clicking 'Nicola' brand takes to main page.
+    - drop down menu works correctly on each page.
 
 - Footer 
     - Clicking Facebook takes you to Facebook.com in a new tab
@@ -239,19 +239,19 @@ or Fans to ask questions.
     - test: invalid email entered. Requested valid email and red outline.
     - test: valid email entered and works as expected.
     - test: all inputs completed except comment box.  red outline on comments and 'please fill in field' shown.
-    - test: all fields completed correclty.  Upon submit the entrys act as thou they are sent and form resets.
+    - test: all fields completed correctly.  Upon submit the entry's act as thou they are sent and form resets.
 
 ### Functionality testing
 
 - Mozilla Browser used to run Gitpod and developer tools used to test , solve problems, style and responsiveness.
-Chrome develeper tools used to check compatibility during project and to check on consistency of mozilla dev tools.
+Chrome developer tools used to check compatibility during project and to check on consistency of Mozilla dev tools.
 
 ### Compatibility testing
 
 - I have tested the website on the virtual devices contained with the Dev Tools of Mozilla and Chrome with no 
 issues seen on either. A wide range of screen sizes tested from mobile, tablet and desktop.
 
-- I have tested compatability on the github pages published website of the project on a 1920 x 1080 monitor, a galaxy s7 
+- I have tested compatibility on the github pages published website of the project on a 1920 x 1080 monitor, a galaxy s7 
 and a Motorola  one+ mobile phone with no issues noted.
 
 ### Code Validation
@@ -265,55 +265,54 @@ and a Motorola  one+ mobile phone with no issues noted.
 
 ### User stories testing
 
-- I want to find out how nicola became a singer.
+- I want to find out how Nicola became a singer.
     - On main navigation page the about me section is present.
 
-- I want know where and when nicola is next performing
+- I want know where and when Nicola is next performing
     - On the main page scrolling to the bottom presents the events section.
 
-- I want to see pictures of nicola.
+- I want to see pictures of Nicola.
     - From the navigation bar I can select the Gallery link which then displays images of Nicola
  
 - I want to be able to contact Nicola as I want to hire her to sing at my event.
     - On the navigation bar there is a link for Contact. Selecting this takes me to a contact form where I can
     input my details and leave a message.
 
-- I want to contact nicola as I am an artist and qould like to collaborate with nicola.
-    - There is a contact page where I can leave my details and message for nicola.
+- I want to contact Nicola as I am an artist and would like to collaborate with Nicola.
+    - There is a contact page where I can leave my details and message for Nicola.
 
 ### Issues found during development
 
-- Fixed Navbar caused content go underneath. After trying margins and paddings on the divs and sections to solve this to 
+- Fixed Navbar caused content go underneath. After trying margins and padding's on the divs and sections to solve this to 
 no avail I found that using padding-top on the body tag pushed content lower and solved the issue. This led to other issues where 
 I then made the navbar a fixed height which caused no background to be displayed on the drop down menu. This was fixed 
 by changing to min-height for navbar and therefore making sizing of the navbar predictable and easier.
 
 - Initially had a carousel to display the event section, this caused some issues where the page seems to be flicking when the image changed.
-This feature didnt look particually good so was removed with advice from the mentor.  
+This feature didn't look particularly good so was removed with advice from the mentor.  
 
 - gallery images - adding container- fluid solved issue with borders on left and right. 
 
 - gallery image display. column sizes changed for better layout. xl-3 added for full screen viewing. md-3 changed to 4 which is better for i-pad pro. scaling of images better.
-They were becoming squashed as too many items being displayed.  I have set media queries for different veiw sizes to 
-keep them at the intended sizes.
+They were becoming squashed as too many items being displayed.  I have set media queries for different view sizes to keep them at the intended sizes.
 
 - The contact page had a minor display issue when viewing on small mobile devices. When the contents were moved into block form
 the background was showing where it should be the contents box.  Issue resolved by adding 5px to the padding-right.
 
-- The contact page dsiplay was having issues with tablet displays. White space present at the bottom due to height of dispaly. Scaled well on mobile/desktop. 
+- The contact page display was having issues with tablet displays. White space present at the bottom due to height of display. Scaled well on mobile/desktop. 
 setting vh-100 solved this however then caused issue with the block element overlapping low height display. 
 Finally settled on including a min-height of 790px which fixed the height issues.
 
-- The Navbar had a particually annoying issue that was limited to Ipad devices where 1px grey horizontal lines were visible in the footer section of all pages
-and also inbetween the event heading and event images.  This was solved for me by moving the ' h4 - Upcoming events' onto the top of the box container for 
-the events section.  Prior to this it was nested above in its own Div that closed at start of the event images. This coincidently stopped
-all the grey lines including them in the footer.
+- The Navbar had a particularly annoying issue that was limited to I pad devices where 1px Grey horizontal lines were visible in the footer section of all pages
+and also in-between the event heading and event images.  This was solved for me by moving the ' h4 - Upcoming events' onto the top of the box container for 
+the events section.  Prior to this it was nested above in its own Div that closed at start of the event images. This coincidentally stopped
+all the Grey lines including them in the footer.
 
 
 ### Performance testing
 
   - I have used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for the performance testing.
-The first attempt showed a few performance drops on mobile devices. These included no meta values for the social media links, a h4 header beign used, no meta description and older image format used.
+The first attempt showed a few performance drops on mobile devices. These included no meta values for the social media links, a h4 header being used, no meta description and older image format used.
 
 - These were addressed and the results as follows.
 
@@ -336,15 +335,15 @@ My project was developed on Gitpod with regular commits during development to Gi
 To deploy my project in github I took the following steps.
 
 - Login and Select the repository in github. ([ms1-nicola](https://github.com/VinceNolan999/ms1-nicola))
-- Click on the settigs button
+- Click on the settings button
 - locate the Github pages section.
 - select 'save' and then refresh or an auto refresh
-- Diplayed at top of Github pages - Your site is published at https://vincenolan999.github.io/ms1-nicola/
+- Displayed at top of Github pages - Your site is published at https://vincenolan999.github.io/ms1-nicola/
 
 To Deploy locally.
 - Login and Select the repository in github. [ms1-nicola](https://github.com/VinceNolan999/ms1-nicola)
-- goto 'code' and  'download zip'
-- locate the ZIP file, unpack and deploy into your local enviroment.
+- go-to 'code' and  'download zip'
+- locate the ZIP file, unpack and deploy into your local environment.
 
 Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
@@ -372,19 +371,21 @@ changing 'Hamburger' Menu color
 
 ### Content
 
-- Bio/about me. Created by nicola and edited by myself.  
+- Bio/about me. Created by Nicola and edited by myself.  
 
 ### Media
 
-- Images provided by nicola
+- Images provided by Nicola
 
-- Clickplay photos. Dagenhams got talent. Nicola and rebecca
+- Clickplay photos. Dagenhams got talent. Nicola and Rebecca
 
 - [Unsplash](https://www.unsplash.com) - photo 12 in gallery - Photo by Robert Vergeson on Unsplash
 
-### Acknowledgements
+### Acknowledgments
 
-- Code Institute README template from mentor Adee Adeye untilized to meet expected critria.  
+- Code Institute README and template from mentor Adee Adeye utilized to meet expected criteria.  
+
+- Code Institute Pre-loaded github tools
 
 - [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - Youtube hosted Front end tutorials.
 
